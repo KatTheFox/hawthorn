@@ -1,0 +1,16 @@
+{
+  "name": "katsshelves",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KatTheFox/katsshelves",
+  "author": "KatTheFox <katthefoxmaid@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "eslint": "^8.23.0",
+    "isaacscript-lint": "^4.1.3",
+    "isaacscript-tsconfig": "^2.0.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.2"
+  }
+}

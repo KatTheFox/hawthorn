@@ -4,9 +4,27 @@ const abilities: Shelf = {
   rows: 3,
   columns: 4,
   areas: [
-    { id: "kat.health", expression: "[health]", x: 1, y: 1 },
-    { id: "kat.reason", expression: "[reason]", x: 2, y: 1 },
-    { id: "kat.passion", expression: "[passion]", x: 3, y: 1 },
+    {
+      id: "kat.health",
+      background: "statshelf_health",
+      expression: "[health]",
+      x: 1,
+      y: 1,
+    },
+    {
+      id: "kat.reason",
+      background: "statshelf_reason",
+      expression: "[reason]",
+      x: 2,
+      y: 1,
+    },
+    {
+      id: "kat.passion",
+      background: "statshelf_passion",
+      expression: "[passion]",
+      x: 3,
+      y: 1,
+    },
     { id: "kat.funds", expression: "[funds]", x: 4, y: 1 },
     { id: "kat.strength", expression: "[healthskill]", x: 1, y: 2 },
     {
@@ -33,18 +51,21 @@ const abilities: Shelf = {
       x: 1,
       y: 3,
       expression: "[fatigue]",
+      background: "statshelf_health_exhausted",
     },
     {
       id: "kat.reason.exhausted",
       x: 2,
       y: 3,
       expression: "[concentration]",
+      background: "statshelf_reason_exhausted",
     },
     {
       id: "kat.passion.exhausted",
       x: 3,
       y: 3,
       expression: "[disillusionment] || [passionexhausted]",
+      background: "statshelf_passion_exhausted",
     },
     { id: "kat.desire", x: 4, y: 3, expression: "desire" },
   ],
@@ -87,7 +108,6 @@ const lore: Shelf = {
   id: "kat.lore",
   rows: 8,
   columns: 9,
-  expression: "[lore]",
   areas: [
     {
       expression: "[fragmentsecrethistories]",
@@ -410,46 +430,55 @@ const lore: Shelf = {
       y: 8,
     },
     {
+      id: "paintingmastersecrethistories",
       expression: "[paintingmastersecrethistories]",
       x: 1,
       y: 1,
     },
     {
+      id: "paintingmasterknock",
       expression: "[paintingmasterknock]",
       x: 2,
       y: 1,
     },
     {
+      id: "paintingmasterlantern",
       expression: "[paintingmasterlantern]",
       x: 3,
       y: 1,
     },
     {
+      id: "paintingmasterforge",
       expression: "[paintingmasterforge]",
       x: 4,
       y: 1,
     },
     {
+      id: "paintingmasteredge",
       expression: "[paintingmasteredge]",
       x: 5,
       y: 1,
     },
     {
+      id: "paintingmasterwinter",
       expression: "[paintingmasterwinter]",
       x: 6,
       y: 1,
     },
     {
+      id: "paintingmasterheart",
       expression: "[paintingmasterheart]",
       x: 7,
       y: 1,
     },
     {
+      id: "paintingmastergrail",
       expression: "[paintingmastergrail]",
       x: 8,
       y: 1,
     },
     {
+      id: "paintingmastermoth",
       expression: "[paintingmastermoth]",
       x: 9,
       y: 1,
@@ -512,12 +541,13 @@ const followers: Shelf = {
   areas: [
     {
       expression:
-        "[neville_a] || [neville_b] || [neville_c] || [neville_r] || [neville_p]",
+        "[neville_a] || [neville_b] || [neville_c] || [neville_r] || [neville_p] || [neville_d]",
       x: 1,
       y: 1,
     },
     {
-      expression: "[enid_a] || [enid_b] || [enid_c] || [enid_r] || [enid_p]",
+      expression:
+        "[enid_a] || [enid_b] || [enid_c] || [enid_r] || [enid_p] || [enid_d]",
       x: 1,
       y: 2,
     },
@@ -564,117 +594,213 @@ const followers: Shelf = {
       y: 4,
     },
     {
-      expression: "[cat_a] || [cat_b] || [cat_c] || [cat_r] || [cat_p]",
+      expression:
+        "[cat_a] || [cat_b] || [cat_c] || [cat_r] || [cat_p] || [cat_d]",
       x: 2,
       y: 1,
     },
     {
       expression:
-        "[clifton_a] || [clifton_b] || [clifton_c] || [clifton_r] || [clifton_p]",
+        "[clifton_a] || [clifton_b] || [clifton_c] || [clifton_r] || [clifton_p] || [clifton_d]",
       x: 2,
       y: 2,
     },
     {
-      expression: "[slee_a] || [slee_b] || [slee_c] || [slee_r] || [slee_p]",
+      expression:
+        "[slee_a] || [slee_b] || [slee_c] || [slee_r] || [slee_p] || [slee_d]",
       x: 2,
       y: 3,
     },
     {
       expression:
-        "[laidlaw_a] || [laidlaw_b] || [laidlaw_c] || [laidlaw_r] || [laidlaw_p]",
+        "[laidlaw_a] || [laidlaw_b] || [laidlaw_c] || [laidlaw_r] || [laidlaw_p] || [laidlaw_d]",
       x: 3,
       y: 1,
     },
     {
       expression:
-        "[tristan_a] || [tristan_b] || [tristan_c] || [tristan_r] || [tristan_p]",
+        "[tristan_a] || [tristan_b] || [tristan_c] || [tristan_r] || [tristan_p] || [tristan_d]",
       x: 3,
       y: 2,
     },
     {
       expression:
-        "[valciane_a] || [valciane_b] || [valciane_c] || [valciane_r] || [valciane_p]",
+        "[valciane_a] || [valciane_b] || [valciane_c] || [valciane_r] || [valciane_p] || [valciane_d]",
       x: 3,
       y: 3,
     },
     {
       expression:
-        "[elridge_a] || [elridge_b] || [elridge_c] || [elridge_r] || [elridge_p]",
+        "[elridge_a] || [elridge_b] || [elridge_c] || [elridge_r] || [elridge_p] || [elridge_d]",
       x: 4,
       y: 3,
     },
     {
-      expression: "[rose_a] || [rose_b] || [rose_c] || [rose_r] || [rose_p]",
+      expression:
+        "[rose_a] || [rose_b] || [rose_c] || [rose_r] || [rose_p] || [rose_d]",
       x: 4,
       y: 1,
     },
     {
       expression:
-        "[victor_a] || [victor_b] || [victor_c] || [victor_r] || [victor_p]",
+        "[victor_a] || [victor_b] || [victor_c] || [victor_r] || [victor_p] || [victor_d]",
       x: 4,
       y: 2,
     },
     {
       expression:
-        "[auclair_a] || [auclair_b] || [auclair_c] || [auclair_r] || [auclair_p]",
+        "[auclair_a] || [auclair_b] || [auclair_c] || [auclair_r] || [auclair_p] || [auclair_d]",
       x: 5,
       y: 1,
     },
     {
       expression:
-        "[violet_a] || [violet_b] || [violet_c] || [violet_r] || [violet_p]",
+        "[violet_a] || [violet_b] || [violet_c] || [violet_r] || [violet_p] || [violet_d]",
       x: 5,
       y: 2,
     },
     {
       expression:
-        "[clovette_a] || [clovette_b] || [clovette_c] || [clovette_r] || [clovette_p]",
+        "[clovette_a] || [clovette_b] || [clovette_c] || [clovette_r] || [clovette_p] || [clovette_d]",
       x: 6,
       y: 1,
     },
     {
       expression:
-        "[dorothy_a] || [dorothy_b] || [dorothy_c] || [dorothy_r] || [dorothy_p]",
+        "[dorothy_a] || [dorothy_b] || [dorothy_c] || [dorothy_r] || [dorothy_p] || [dorothy_d]",
       x: 6,
       y: 2,
     },
     {
-      expression: "[leo_a] || [leo_b] || [leo_c] || [leo_r] || [leo_p]",
+      expression:
+        "[leo_a] || [leo_b] || [leo_c] || [leo_r] || [leo_p] || [leo_d]",
       x: 6,
       y: 3,
     },
     {
       expression:
-        "[renira_a] || [renira_b] || [renira_c] || [renira_r] || [renira_p]",
+        "[renira_a] || [renira_b] || [renira_c] || [renira_r] || [renira_p] || [renira_d]",
       x: 7,
       y: 1,
     },
     {
       expression:
-        "[saliba_a] || [saliba_b] || [saliba_c] || [saliba_r] || [saliba_p]",
+        "[saliba_a] || [saliba_b] || [saliba_c] || [saliba_r] || [saliba_p] || [saliba_d]",
       x: 7,
       y: 2,
     },
     {
       expression:
-        "[porter_a] || [porter_b] || [porter_c] || [porter_r] || [porter_p]",
+        "[porter_a] || [porter_b] || [porter_c] || [porter_r] || [porter_p] || [porter_d]",
       x: 8,
       y: 3,
     },
     {
       expression:
-        "[sylvia_a] || [sylvia_b] || [sylvia_c] || [sylvia_r] || [sylvia_p]",
+        "[sylvia_a] || [sylvia_b] || [sylvia_c] || [sylvia_r] || [sylvia_p] || [sylvia_d]",
       x: 8,
       y: 2,
     },
     {
       expression:
-        "[ysabet_a] || [ysabet_b] || [ysabet_c] || [ysabet_r] || [ysabet_p]",
+        "[ysabet_a] || [ysabet_b] || [ysabet_c] || [ysabet_r] || [ysabet_p] || [ysabet_d]",
       x: 8,
       y: 1,
     },
   ],
 };
+const tools: Shelf = {
+  name: "Tools",
+  id: "kat.tools",
+  rows: 1,
+  columns: 9,
+  areas: [
+    {
+      x: 1,
+      y: 1,
+      expression:
+        "[tool]&&([secrethistories]>0)&&[secrethistories]=[~/tabletop:tool:aspectmax/secrethistories]",
+    },
+    {
+      x: 2,
+      y: 1,
+      expression:
+        "[tool]&&([knock]>0)&&[knock]=[~/tabletop:tool:aspectmax/knock]",
+    },
+    {
+      x: 3,
+      y: 1,
+      expression:
+        "[tool]&&([lantern]>0)&&[lantern]=[~/tabletop:tool:aspectmax/lantern]",
+    },
+    {
+      x: 4,
+      y: 1,
+      expression:
+        "[tool]&&([forge]>0)&&[forge]=[~/tabletop:tool:aspectmax/forge]",
+    },
+    {
+      x: 5,
+      y: 1,
+      expression: "[tool]&&([edge]>0)&&[edge]=[~/tabletop:tool:aspectmax/edge]",
+    },
+    {
+      x: 6,
+      y: 1,
+      expression:
+        "[tool]&&([winter]>0)&&[winter]=[~/tabletop:tool:aspectmax/winter]",
+    },
+    {
+      x: 7,
+      y: 1,
+      expression:
+        "[tool]&&([heart]>0)&&[heart]=[~/tabletop:tool:aspectmax/heart]",
+    },
+    {
+      x: 8,
+      y: 1,
+      expression:
+        "[tool]&&([grail]>0)&&[grail]=[~/tabletop:tool:aspectmax/grail]",
+    },
+    {
+      x: 9,
+      y: 1,
+      expression: "[tool]&&([moth]>0)&&[moth]=[~/tabletop:tool:aspectmax/moth]",
+    },
+  ],
+};
+const waysThroughDream: Shelf = {
+  name: "Ways Back Through Dream",
+  id: "kat.mansus",
+  columns: 2,
+  rows: 3,
+  areas: [
+    {
+      x: 1,
+      y: 1,
+      expression: "[waywood]",
+    },
+    { x: 2, y: 1, expression: "[waywhite]" },
+    {
+      x: 1,
+      y: 2,
+      expression:
+        "[waystagbefore_1] || [waystagbefore_2] || [waystagbefore_3] || [waystagbefore_4] || [waystagbefore_5] || [waystag_after]",
+    },
+    { x: 2, y: 2, expression: "[wayspider]" },
+    { x: 1, y: 3, expression: "[waypeacock]" },
+    { x: 2, y: 3, expression: "[apostlelantern.pillar2]" },
+  ],
+};
 export const shelves = {
-  shelves: [abilities, locations, spintria, lore, rites, followers],
+  shelves: [
+    abilities,
+    locations,
+    spintria,
+    lore,
+    tools,
+    rites,
+    followers,
+    waysThroughDream,
+  ],
 };

@@ -806,7 +806,7 @@ const apostleGrail: Shelf = {
       expression: "[influencegrailg]",
     },
     { x: 3, y: 2, expression: "[fragmentheartg]" },
-    { x: 1, y: 4, expression: "[marinette] || [matinette.enroute]" },
+    { x: 1, y: 4, expression: "[marinette] || [marinette.enroute]" },
     { x: 1, y: 3, expression: "[ingredientgraild]" },
     { x: 2, y: 3, expression: "[ingredientmothd]" },
     { x: 3, y: 3, expression: "[ingredientheartf]" },

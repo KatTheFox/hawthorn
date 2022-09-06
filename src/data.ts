@@ -721,55 +721,55 @@ const tools: Shelf = {
       x: 1,
       y: 1,
       expression:
-        "[tool] && ([secrethistories]>0) && [secrethistories]=[~/tabletop:{[tool] && ![paintingmastersecrethistories] && ![paintingmasterknock] && ![paintingmasterlantern] && ![paintingmasterforge] && ![paintingmasteredge] && ![paintingmasterwinter] && ![paintingmasterheart] && ![paintingmastergrail] && ![paintingmastermoth]}:aspectmax/secrethistories]",
+        "[tool] && ([secrethistories]>0) && [secrethistories]=[~/tabletop:{[tool] && ![paintingmastersecrethistories]}:aspectmax/secrethistories]",
     },
     {
       x: 2,
       y: 1,
       expression:
-        "[tool] && ([knock]>0) && [knock]=[~/tabletop:{[tool] && ![paintingmastersecrethistories] && ![paintingmasterknock] && ![paintingmasterlantern] && ![paintingmasterforge] && ![paintingmasteredge] && ![paintingmasterwinter] && ![paintingmasterheart] && ![paintingmastergrail] && ![paintingmastermoth]}:aspectmax/knock]",
+        "[tool] && ([knock]>0) && [knock]=[~/tabletop:{[tool] && ![paintingmasterknock]}:aspectmax/knock]",
     },
     {
       x: 3,
       y: 1,
       expression:
-        "[tool] && ([lantern]>0) && [lantern]=[~/tabletop:{[tool] && ![paintingmastersecrethistories] && ![paintingmasterknock] && ![paintingmasterlantern] && ![paintingmasterforge] && ![paintingmasteredge] && ![paintingmasterwinter] && ![paintingmasterheart] && ![paintingmastergrail] && ![paintingmastermoth]}:aspectmax/lantern]",
+        "[tool] && ([lantern]>0) && [lantern]=[~/tabletop:{[tool] && ![paintingmasterlantern]}:aspectmax/lantern]",
     },
     {
       x: 4,
       y: 1,
       expression:
-        "[tool] && ([forge]>0) && [forge]=[~/tabletop:{[tool] && ![paintingmastersecrethistories] && ![paintingmasterknock] && ![paintingmasterlantern] && ![paintingmasterforge] && ![paintingmasteredge] && ![paintingmasterwinter] && ![paintingmasterheart] && ![paintingmastergrail] && ![paintingmastermoth]}:aspectmax/forge]",
+        "[tool] && ([forge]>0) && [forge]=[~/tabletop:{[tool] && ![paintingmasterforge]}:aspectmax/forge]",
     },
     {
       x: 5,
       y: 1,
       expression:
-        "[tool] && ([edge]>0) && [edge]=[~/tabletop:{[tool] && ![paintingmastersecrethistories] && ![paintingmasterknock] && ![paintingmasterlantern] && ![paintingmasterforge] && ![paintingmasteredge] && ![paintingmasterwinter] && ![paintingmasterheart] && ![paintingmastergrail] && ![paintingmastermoth]}:aspectmax/edge]",
+        "[tool] && ([edge]>0) && [edge]=[~/tabletop:{[tool] && ![paintingmasteredge]}:aspectmax/edge]",
     },
     {
       x: 6,
       y: 1,
       expression:
-        "[tool] && ([winter]>0) && [winter]=[~/tabletop:{[tool] && ![paintingmastersecrethistories] && ![paintingmasterknock] && ![paintingmasterlantern] && ![paintingmasterforge] && ![paintingmasteredge] && ![paintingmasterwinter] && ![paintingmasterheart] && ![paintingmastergrail] && ![paintingmastermoth]}:aspectmax/winter]",
+        "[tool] && ([winter]>0) && [winter]=[~/tabletop:{[tool] && ![paintingmasterwinter]}:aspectmax/winter]",
     },
     {
       x: 7,
       y: 1,
       expression:
-        "[tool] && ([heart]>0) && [heart]=[~/tabletop:{[tool] && ![paintingmastersecrethistories] && ![paintingmasterknock] && ![paintingmasterlantern] && ![paintingmasterforge] && ![paintingmasteredge] && ![paintingmasterwinter] && ![paintingmasterheart] && ![paintingmastergrail] && ![paintingmastermoth]}:aspectmax/heart]",
+        "[tool] && ([heart]>0) && [heart]=[~/tabletop:{[tool] && ![paintingmasterheart]}:aspectmax/heart]",
     },
     {
       x: 8,
       y: 1,
       expression:
-        "[tool] && ([grail]>0) && [grail]=[~/tabletop:{[tool] && ![paintingmastersecrethistories] && ![paintingmasterknock] && ![paintingmasterlantern] && ![paintingmasterforge] && ![paintingmasteredge] && ![paintingmasterwinter] && ![paintingmasterheart] && ![paintingmastergrail] && ![paintingmastermoth]}:aspectmax/grail]",
+        "[tool] && ([grail]>0) && [grail]=[~/tabletop:{[tool] && ![paintingmastergrail]}:aspectmax/grail]",
     },
     {
       x: 9,
       y: 1,
       expression:
-        "[tool] && ([moth]>0) && [moth]=[~/tabletop:{[tool] && ![paintingmastersecrethistories] && ![paintingmasterknock] && ![paintingmasterlantern] && ![paintingmasterforge] && ![paintingmasteredge] && ![paintingmasterwinter] && ![paintingmasterheart] && ![paintingmastergrail] && ![paintingmastermoth]}:aspectmax/moth]",
+        "[tool] && ([moth]>0) && [moth]=[~/tabletop:{[tool] && ![paintingmastermoth]}:aspectmax/moth]",
     },
   ],
 };

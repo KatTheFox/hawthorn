@@ -15,7 +15,29 @@ type Shelf = {
   style?: ShelfStyle;
   /** A list of areas for your shelf. */
   areas: ShelfArea[];
+  /** Which category your Shelf falls under. Used for menu organization. */
+  category?: ShelfCategory;
 };
+type ShelfCategory =
+  | "tools"
+  | "abilities"
+  | "lore"
+  | "texts"
+  | "vaults"
+  | "followers"
+  | "rites"
+  | "influences"
+  | "jobs"
+  | "ways"
+  | "reputation"
+  | "ingredients"
+  | "apostles"
+  | "dancer"
+  | "exile"
+  | "ghoul"
+  | "priest"
+  | "";
+
 type ShelfStyle = "aligncenter" | "stretch" | "repeat";
 type ShelfArea = {
   /** Optional. An expression describing what to move into that shelf. */

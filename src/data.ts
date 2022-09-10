@@ -1,4 +1,5 @@
 const abilities: Shelf = {
+  category: "abilities",
   id: "kat.abilities",
   name: "Abilities",
   rows: 3,
@@ -71,6 +72,7 @@ const abilities: Shelf = {
   ],
 };
 const spintria: Shelf = {
+  category: "",
   id: "kat.spintria",
   name: "Spintria",
   rows: 4,
@@ -82,6 +84,7 @@ const spintria: Shelf = {
   ],
 };
 const locations: Shelf = {
+  category: "",
   name: "Locations",
   id: "kat.locations",
   rows: 1,
@@ -105,6 +108,7 @@ const locations: Shelf = {
 };
 const lore: Shelf = {
   name: "Lore",
+  category: "lore",
   id: "kat.lore",
   rows: 8,
   columns: 9,
@@ -487,6 +491,7 @@ const lore: Shelf = {
 };
 const rites: Shelf = {
   id: "kat.rites",
+  category: "rites",
   name: "Rites",
   rows: 1,
   columns: 10,
@@ -535,6 +540,7 @@ const rites: Shelf = {
 };
 const followers: Shelf = {
   id: "kat.followers",
+  category: "followers",
   name: "Followers",
   rows: 4,
   columns: 8,
@@ -712,6 +718,7 @@ const followers: Shelf = {
 const tools: Shelf = {
   name: "Tools",
   id: "kat.tools",
+  category: "tools",
   rows: 1,
   columns: 9,
   expression:
@@ -775,6 +782,7 @@ const tools: Shelf = {
 };
 const apostleGrail: Shelf = {
   id: "kat.apostle.grail",
+  category: "apostles",
   name: "Grail Apostle",
   rows: 4,
   columns: 3,
@@ -812,9 +820,51 @@ const apostleGrail: Shelf = {
     { x: 3, y: 3, expression: "[ingredientheartf]" },
   ],
 };
+const pigments: Shelf = {
+  id: "kat.pigments",
+  name: "Pigments",
+  category: "ingredients",
+  rows: 1,
+  columns: 8,
+  areas: [
+    {
+      x: 1,
+      expression: "[pigment] && [knock]",
+    },
+    {
+      x: 2,
+      expression: "[pigment] && [lantern]",
+    },
+    {
+      x: 3,
+      expression: "[pigment] && [forge]",
+    },
+    {
+      x: 4,
+      expression: "[pigment] && [edge]",
+    },
+    {
+      x: 5,
+      expression: "[pigment] && [winter]",
+    },
+    {
+      x: 6,
+      expression: "[pigment] && [heart]",
+    },
+    {
+      x: 7,
+      expression: "[pigment] && [grail]",
+    },
+    {
+      x: 8,
+      expression: "[pigment] && [moth]",
+    },
+  ],
+};
 const apostleForge: Shelf = {
   id: "kat.apostle.forge",
   name: "Forge Apostle",
+  category: "apostles",
   rows: 2,
   columns: 3,
   areas: [
@@ -850,6 +900,8 @@ const apostleForge: Shelf = {
 const apostleLantern: Shelf = {
   id: "kat.apostle.lantern",
   name: "Lantern Apostle",
+
+  category: "apostles",
   rows: 2,
   columns: 3,
   areas: [
@@ -885,6 +937,7 @@ const apostleLantern: Shelf = {
 const waysThroughDream: Shelf = {
   name: "Ways Back Through Dream",
   id: "kat.mansus",
+  category: "ways",
   columns: 2,
   rows: 3,
   areas: [
@@ -916,6 +969,7 @@ export const shelves = {
     followers,
     waysThroughDream,
     apostleLantern,
+    pigments,
     apostleGrail,
     apostleForge,
   ],

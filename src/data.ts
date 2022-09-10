@@ -71,6 +71,27 @@ const abilities: Shelf = {
     { id: "kat.desire", x: 4, y: 3, expression: "desire" },
   ],
 };
+const cult: Shelf = {
+  category: "",
+  id: "kat.cult",
+  name: "[KS] Cult",
+  rows: 1,
+  columns: 3,
+  areas: [
+    {
+      x: 1,
+      expression: "[society]",
+    },
+    {
+      x: 2,
+      expression: "[hq]",
+    },
+    {
+      x: 3,
+      expression: "[mentor]",
+    },
+  ],
+};
 const spintria: Shelf = {
   category: "",
   id: "kat.spintria",
@@ -1320,5 +1341,6 @@ export const shelves = {
     pigments,
     apostleGrail,
     apostleForge,
+    cult,
   ],
 };

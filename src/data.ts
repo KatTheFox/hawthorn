@@ -1529,15 +1529,15 @@ const ssAbilities: Shelf = {
   columns: 4,
   areas: [
     {
-      expression: "[healthmoth]",
+      expression: "[healthmoth] && ![ingredient]",
     },
     {
       x: 2,
-      expression: "[reasonmoth]",
+      expression: "[reasonmoth] && ![ingredient]",
     },
     {
       x: 3,
-      expression: "[passionmoth]",
+      expression: "[passionmoth] && ![ingredient]",
     },
     {
       x: 4,
@@ -1545,17 +1545,17 @@ const ssAbilities: Shelf = {
     },
     {
       y: 2,
-      expression: "[health]",
+      expression: "[health] && ![healthmoth]",
     },
     {
       x: 2,
       y: 2,
-      expression: "[reason]",
+      expression: "[reason] && ![reasonmoth]",
     },
     {
       x: 3,
       y: 2,
-      expression: "[passion]",
+      expression: "[passion] && ![passionmoth]",
     },
     {
       x: 4,

@@ -1501,13 +1501,94 @@ const pentiments: Shelf = {
     },
   ],
 };
+const ssLore: Shelf = {
+  id: "kat.skinstealer.lore",
+  name: "[KS] Skinstealer Lore",
+  category: "",
+  rows: 1,
+  columns: 9,
+  areas: [
+    { x: 1, expression: "[lore.secrethistories]" },
+    { x: 1, expression: "[lore.knock]" },
+    { x: 1, expression: "[lore.lantern]" },
+    { x: 1, expression: "[lore.forge]" },
+    { x: 1, expression: "[lore.edge]" },
+    { x: 1, expression: "[lore.winter]" },
+    { x: 1, expression: "[lore.heart]" },
+    { x: 1, expression: "[lore.grail]" },
+    { x: 1, expression: "[lore.mothj]" },
+  ],
+};
+const ssAbilities: Shelf = {
+  id: "kat.skinstealer.abilities",
+  name: "[KS] Skinstealer Abilities",
+  rows: 3,
+  columns: 4,
+  areas: [
+    {
+      expression: "[healthmoth]",
+    },
+    {
+      x: 2,
+      expression: "[reasonmoth]",
+    },
+    {
+      x: 3,
+      expression: "[passionmoth]",
+    },
+    {
+      x: 4,
+      expression: "[funds]",
+    },
+    {
+      y: 2,
+      expression: "[health]",
+    },
+    {
+      x: 2,
+      y: 2,
+      expression: "[reason]",
+    },
+    {
+      x: 3,
+      y: 2,
+      expression: "[passion]",
+    },
+    {
+      x: 4,
+      y: 2,
+      expression: "[job]",
+    },
+    {
+      y: 3,
+      expression: "[vigour]",
+    },
+    {
+      x: 2,
+      y: 3,
+      expression: "[breakthrough]",
+    },
+    {
+      x: 3,
+      y: 3,
+      expression: "[inspiration]",
+    },
+    {
+      x: 4,
+      y: 3,
+      expression: "[desire]",
+    },
+  ],
+};
 export const shelves = {
   shelves: [
     abilities,
     locations,
     spintria,
     lore,
+    ssLore,
     tools,
+    ssAbilities,
     rites,
     followers,
     loreNoSH,

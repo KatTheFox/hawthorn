@@ -1508,15 +1508,18 @@ const ssLore: Shelf = {
   rows: 1,
   columns: 9,
   areas: [
-    { x: 1, expression: "[lore.secrethistories]" },
-    { x: 1, expression: "[lore.knock]" },
-    { x: 1, expression: "[lore.lantern]" },
-    { x: 1, expression: "[lore.forge]" },
-    { x: 1, expression: "[lore.edge]" },
-    { x: 1, expression: "[lore.winter]" },
-    { x: 1, expression: "[lore.heart]" },
-    { x: 1, expression: "[lore.grail]" },
-    { x: 1, expression: "[lore.moth]" },
+    {
+      x: 1,
+      expression: "[lore.secrethistories] || [lore.secrethistories.exhausted]",
+    },
+    { x: 2, expression: "[lore.knock] || [lore.knock.exhausted]" },
+    { x: 3, expression: "[lore.lantern] || [lore.lantern.exhausted]" },
+    { x: 4, expression: "[lore.forge] || [lore.forge.exhausted]" },
+    { x: 5, expression: "[lore.edge] || [lore.edge.exhausted]" },
+    { x: 6, expression: "[lore.winter] || [lore.winter.exhausted]" },
+    { x: 7, expression: "[lore.heart] || [lore.heart.exhausted]" },
+    { x: 8, expression: "[lore.grail] || [lore.grail.exhausted]" },
+    { x: 9, expression: "[lore.moth] || [lore.moth.exhausted]" },
   ],
 };
 const ssAbilities: Shelf = {

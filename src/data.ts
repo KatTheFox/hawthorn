@@ -1516,7 +1516,7 @@ const ssLore: Shelf = {
     { x: 1, expression: "[lore.winter]" },
     { x: 1, expression: "[lore.heart]" },
     { x: 1, expression: "[lore.grail]" },
-    { x: 1, expression: "[lore.mothj]" },
+    { x: 1, expression: "[lore.moth]" },
   ],
 };
 const ssAbilities: Shelf = {

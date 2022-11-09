@@ -1,0 +1,73 @@
+export const abilities: Shelf = {
+  category: "abilities",
+  id: "kat.abilities",
+  name: "[KS] Abilities",
+  rows: 3,
+  columns: 4,
+  areas: [
+    {
+      id: "kat.health",
+      background: "statshelf_health",
+      expression: "[health]",
+      x: 1,
+      y: 1,
+    },
+    {
+      id: "kat.reason",
+      background: "statshelf_reason",
+      expression: "[reason]",
+      x: 2,
+      y: 1,
+    },
+    {
+      id: "kat.passion",
+      background: "statshelf_passion",
+      expression: "[passion]",
+      x: 3,
+      y: 1,
+    },
+    { id: "kat.funds", expression: "[funds]", x: 4, y: 1 },
+    { id: "kat.strength", expression: "[healthskill]", x: 1, y: 2 },
+    {
+      id: "kat.scholarship",
+      x: 2,
+      y: 2,
+      expression: "[reasonskill]",
+    },
+    {
+      id: "kat.imagination",
+      x: 3,
+      y: 2,
+      expression: "[passionskill]",
+    },
+    {
+      id: "kat.ggjob",
+      x: 4,
+      y: 2,
+      expression:
+        "[gloverandgloverjuniorjob] || [gloverandgloverjuniorjob_demotion] || [gloverandglover_difficultbossa_job] || [gloverandgloverseniorjob] || [gloverandglover_difficultbossa_gone_job] || [gloverandgloverseniorjob_youngerglovergone] || [gloverandgloverjob_demotion] || [gloverandglovertopjob] || [gloverandgloverjob_youngerglovergone_demotion] || [gloverandglovertopjob_tainted_demotion] || [gloverandglovertopjob_tainted]",
+    },
+    {
+      id: "kat.health.exhausted",
+      x: 1,
+      y: 3,
+      expression: "[fatigue]",
+      background: "statshelf_health_exhausted",
+    },
+    {
+      id: "kat.reason.exhausted",
+      x: 2,
+      y: 3,
+      expression: "[concentration]",
+      background: "statshelf_reason_exhausted",
+    },
+    {
+      id: "kat.passion.exhausted",
+      x: 3,
+      y: 3,
+      expression: "[disillusionment] || [passionexhausted]",
+      background: "statshelf_passion_exhausted",
+    },
+    { id: "kat.desire", x: 4, y: 3, expression: "desire" },
+  ],
+};

@@ -1,4 +1,4 @@
-const waysThroughDream: Shelf = {
+export const waysThroughDream: Shelf = {
   name: "[KS] Ways Back Through Dream",
   id: "kat.mansus",
   category: "ways",

@@ -19,6 +19,7 @@ import { pigments } from "./shelves/vanilla/pigments";
 import { rites } from "./shelves/vanilla/rites";
 import { spintria } from "./shelves/vanilla/spintria";
 import { tools } from "./shelves/vanilla/tools";
+import { waysThroughDream } from "./shelves/vanilla/ways";
 
 export const shelves = {
   shelves: [

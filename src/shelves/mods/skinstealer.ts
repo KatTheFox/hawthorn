@@ -22,7 +22,7 @@ export const ssLore: Shelf = {
 export const ssAbilities: Shelf = {
   id: "kat.skinstealer.abilities",
   name: "[KS] Skinstealer Abilities",
-  rows: 3,
+  rows: 4,
   columns: 4,
   areas: [
     {
@@ -78,5 +78,38 @@ export const ssAbilities: Shelf = {
       y: 3,
       expression: "[desire]",
     },
+    {
+      x: 1,
+      y: 4,
+      expression: "[currentid]",
+    },
+    {
+      x: 2,
+      y: 4,
+      expression: "[uqyearnings] || [uqfalseyearnings]",
+    },
+    {
+      x: 3,
+      y: 4,
+      expression: "[property]",
+    },
+    {
+      x: 4,
+      y: 4,
+      expression: "[romanticinterest]",
+    },
+  ],
+};
+export const ssRituls: Shelf = {
+  name: "[KS] Skinstealer Rituals",
+  id: "kat.ss.rites",
+  rows: 1,
+  columns: 5,
+  areas: [
+    { expression: "[rite.exitingants]" },
+    { x: 2, expression: "[rite.floodedflint]" },
+    { x: 3, expression: "[rite.dancegreycat]" },
+    { x: 4, expression: "[rite.musicianssacrifice]" },
+    { x: 5, expression: "[rite.honeyshunger" },
   ],
 };

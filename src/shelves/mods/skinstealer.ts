@@ -110,6 +110,6 @@ export const ssRituls: Shelf = {
     { x: 2, expression: "[rite.floodedflint]" },
     { x: 3, expression: "[rite.dancegreycat]" },
     { x: 4, expression: "[rite.musicianssacrifice]" },
-    { x: 5, expression: "[rite.honeyshunger" },
+    { x: 5, expression: "[rite.honeyshunger]" },
   ],
 };

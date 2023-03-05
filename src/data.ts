@@ -12,7 +12,7 @@ import {
 import { ssAbilities, ssLore, ssRituls } from "./shelves/mods/skinstealer";
 import { abilities } from "./shelves/vanilla/abilities";
 import { cult } from "./shelves/vanilla/cult";
-import { followers } from "./shelves/vanilla/followers";
+import { followers, jwfollowers } from "./shelves/vanilla/followers";
 import { locations } from "./shelves/vanilla/locations";
 import { lore, loreNoSH } from "./shelves/vanilla/lore";
 import { pigments } from "./shelves/vanilla/pigments";
@@ -30,6 +30,8 @@ export const shelves = {
     ssLore,
     tools,
     ssAbilities,
+    jwfollowers,
+
     rites,
     followers,
     loreNoSH,

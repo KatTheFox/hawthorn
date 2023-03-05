@@ -17,13 +17,6 @@ export const followers: Shelf = {
       x: 1,
       y: 2,
     },
-
-    {
-      expression:
-        "[colton_a] || [colton_b] || [colton_c] || [colton_r] || [colton_p] || [colton_d]",
-      x: 1,
-      y: 3,
-    },
     {
       expression: "[generic_a_knock] || [generic_b_knock] || [generic_c_knock]",
       x: 1,
@@ -224,6 +217,12 @@ export const jwfollowers: Shelf = {
         "[enid_a] || [enid_b] || [enid_c] || [enid_r] || [enid_p] || [enid_d]",
       x: 2,
       y: 2,
+    },
+    {
+      expression:
+        "[colton_a] || [colton_b] || [colton_c] || [colton_r] || [colton_p] || [colton_d]",
+      x: 2,
+      y: 3,
     },
     {
       expression: "[generic_a_knock] || [generic_b_knock] || [generic_c_knock]",

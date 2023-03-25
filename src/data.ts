@@ -9,7 +9,13 @@ import {
   exileWincons,
   pentiments,
 } from "./shelves/legacies/exile";
-import { ssAbilities, ssLore, ssRituls } from "./shelves/mods/skinstealer";
+import {
+  ssAbilities,
+  ssLore,
+  ssRituls,
+  ssStashes,
+  ssWays,
+} from "./shelves/mods/skinstealer";
 import { abilities } from "./shelves/vanilla/abilities";
 import { cult } from "./shelves/vanilla/cult";
 import { followers, jwfollowers } from "./shelves/vanilla/followers";
@@ -31,7 +37,7 @@ export const shelves = {
     tools,
     ssAbilities,
     jwfollowers,
-
+    ssStashes,
     rites,
     followers,
     loreNoSH,
@@ -46,5 +52,6 @@ export const shelves = {
     exileWeapons,
     exileWincons,
     ssRituls,
+    ssWays,
   ],
 };

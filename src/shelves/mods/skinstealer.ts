@@ -19,6 +19,27 @@ export const ssLore: Shelf = {
     { x: 9, expression: "[lore.moth] || [lore.moth.exhausted]" },
   ],
 };
+export const ssStashes: Shelf = {
+  id: "kat.skinstealer.stashes",
+  name: "[KS] Skinstealer Hiding Places",
+  rows: 1,
+  columns: 15,
+  areas: [{ expression: "[stashlocation.empty]", columns: 15 }],
+};
+export const ssWays: Shelf = {
+  id: "kat.skinstealer.ways",
+  name: "[KS] Skinstealer Ways Back Through Dream",
+  rows: 3,
+  columns: 2,
+  areas: [
+    { expression: "[moth.way.wooddoor]" },
+    { x: 2, expression: "[moth.way.well]" },
+    { y: 2, expression: "[moth.way.templewheel]" },
+    { x: 2, y: 2, expression: "[moth.way.woodwound]" },
+    { y: 3, expression: "[moth.way.ruinedhive]" },
+    { x: 2, y: 3, expression: "[moth.medusa] || [moth.medusa.exhausted]" },
+  ],
+};
 export const ssAbilities: Shelf = {
   id: "kat.skinstealer.abilities",
   name: "[KS] Skinstealer Abilities",
@@ -26,15 +47,15 @@ export const ssAbilities: Shelf = {
   columns: 4,
   areas: [
     {
-      expression: "[healthmoth] && ![ingredient]",
+      expression: "([healthmoth] || [fatigue.moth]) && ![ingredient]",
     },
     {
       x: 2,
-      expression: "[reasonmoth] && ![ingredient]",
+      expression: "([reasonmoth] || [concentration.moth]) && ![ingredient]",
     },
     {
       x: 3,
-      expression: "[passionmoth] && ![ingredient]",
+      expression: "([passionmoth] ||[passionexhausted.moth]) && ![ingredient]",
     },
     {
       x: 4,
@@ -42,17 +63,20 @@ export const ssAbilities: Shelf = {
     },
     {
       y: 2,
-      expression: "[health] && ![healthmoth]",
+      expression:
+        "([health] || [exhaustion] ) && ![healthmoth] && ![fatigue.moth]",
     },
     {
       x: 2,
       y: 2,
-      expression: "[reason] && ![reasonmoth]",
+      expression:
+        "([reason] || [concentration] ) && ![reasonmoth] && ![concentration.moth]",
     },
     {
       x: 3,
       y: 2,
-      expression: "[passion] && ![passionmoth]",
+      expression:
+        "([passion] || [disillusionment] || [passionexhausted] ) && ![passionmoth] && ![passionexhausted.moth]",
     },
     {
       x: 4,

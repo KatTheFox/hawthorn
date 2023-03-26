@@ -64,7 +64,7 @@ export const ssAbilities: Shelf = {
     {
       y: 2,
       expression:
-        "([health] || [exhaustion] ) && ![healthmoth] && ![fatigue.moth]",
+        "([health] || [fatigue] ) && ![healthmoth] && ![fatigue.moth]",
     },
     {
       x: 2,
@@ -110,7 +110,7 @@ export const ssAbilities: Shelf = {
     {
       x: 2,
       y: 4,
-      expression: "[uqyearnings] || [uqfalseyearnings]",
+      expression: "[uqyearnings] || [yearning.revealed] || [uqfalseyearnings]",
     },
     {
       x: 3,

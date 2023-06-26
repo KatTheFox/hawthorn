@@ -20,6 +20,7 @@ import {
   waifBothShelf,
   waifDesires,
   waifHourMems,
+  waifLocations,
   waifOccultShelf,
   waifPracticalShelf,
 } from "./shelves/mods/waif";
@@ -65,5 +66,6 @@ export const shelves = {
     waifHourMems,
     waifOccultShelf,
     waifPracticalShelf,
+    waifLocations,
   ],
 };

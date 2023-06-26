@@ -270,3 +270,17 @@ export const waifDesires: Shelf = {
   columns: 8,
   areas: [{ expression: "[desire]", columns: 8 }],
 };
+export const waifLocations: Shelf = {
+  category: "",
+  id: "kat.waif.locations",
+  name: "[KS] Waif Locations",
+  rows: 1,
+  columns: 8,
+  areas: [
+    {
+      expression:
+        "[waif.inruins] || [waif.insea] || [waif.incaves] || [waif.inforest]",
+      columns: 8,
+    },
+  ],
+};

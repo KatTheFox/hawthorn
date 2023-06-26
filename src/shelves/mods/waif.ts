@@ -339,6 +339,8 @@ export const waifDesires: Shelf = {
   category: "",
   id: "kat.waif.desires",
   name: "[KS] Waif Desires",
+  background: "desire",
+  style: "aligncenter",
   rows: 1,
   columns: 8,
   areas: [{ expression: "[desire]", columns: 8 }],
@@ -348,6 +350,8 @@ export const waifLocations: Shelf = {
   id: "kat.waif.locations",
   name: "[KS] Waif Locations",
   rows: 1,
+  background: "location",
+  style: "aligncenter",
   columns: 8,
   areas: [
     {
@@ -360,6 +364,8 @@ export const waifLocations: Shelf = {
 export const waifChoices: Shelf = {
   category: "",
   id: "kat.waif.choices",
+  background: "insight",
+  style: "aligncenter",
   name: "[KS] Waif Choices",
   rows: 1,
   columns: 4,

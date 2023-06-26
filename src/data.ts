@@ -16,6 +16,13 @@ import {
   ssStashes,
   ssWays,
 } from "./shelves/mods/skinstealer";
+import {
+  waifBothShelf,
+  waifDesires,
+  waifHourMems,
+  waifOccultShelf,
+  waifPracticalShelf,
+} from "./shelves/mods/waif";
 import { abilities } from "./shelves/vanilla/abilities";
 import { cult } from "./shelves/vanilla/cult";
 import { followers, jwfollowers } from "./shelves/vanilla/followers";
@@ -53,5 +60,10 @@ export const shelves = {
     exileWincons,
     ssRituls,
     ssWays,
+    waifBothShelf,
+    waifDesires,
+    waifHourMems,
+    waifOccultShelf,
+    waifPracticalShelf,
   ],
 };

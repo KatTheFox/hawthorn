@@ -18,6 +18,7 @@ import {
 } from "./shelves/mods/skinstealer";
 import {
   waifBothShelf,
+  waifChoices,
   waifDesires,
   waifHourMems,
   waifLocations,
@@ -67,5 +68,6 @@ export const shelves = {
     waifOccultShelf,
     waifPracticalShelf,
     waifLocations,
+    waifChoices,
   ],
 };

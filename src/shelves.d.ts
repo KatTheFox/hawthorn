@@ -7,6 +7,8 @@ type Shelf = {
   rows?: number;
   /** Optional. How many columns for the entire shelf. Default=1 */
   columns?: number;
+  /** Optional, default=2, A value from 0-4 describing the priority of the shelf. Higher priority shelves will grab cards first. */
+  priority?: number;
   /** Optional. An expression describing what to move into that shelf. */
   expression?: string;
   /** Optional. An image to display as a background. */

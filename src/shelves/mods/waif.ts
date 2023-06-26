@@ -5,6 +5,7 @@ export const waifHourMems: Shelf = {
   rows: 3,
   priority: 3,
   background: "memory",
+  style: "aligncenter",
   columns: 7,
   areas: [
     // moth, watchman, velvet, malachite, thunderskin, mother of ants, witch and sister, colonel, lionsmith, elegiast, beachcrow, meniscate, sun-in-rags, horned-axe, madrugad, red grail, wolf divided, sister-and-witch, flowermaker, forge of days
@@ -146,6 +147,7 @@ export const waifPracticalShelf: Shelf = {
   id: "kat.waif.practical",
   name: "[KS] Waif Practical Placeholder",
   background: "job",
+  style: "aligncenter",
   rows: 1,
   columns: 9,
   areas: [
@@ -211,7 +213,8 @@ export const waifOccultShelf: Shelf = {
   name: "[KS] Waif Occult Placeholder",
   rows: 1,
   columns: 9,
-  background: "rite",
+  background: "ritual",
+  style: "aligncenter",
   areas: [
     // secrethistories, knock, lantern, forge, edge, winter, heart, moth, grail
     {

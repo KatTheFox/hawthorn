@@ -1,6 +1,8 @@
 type Shelf = {
   /** The unique id for your shelf.*/
   id: string;
+  /** Which mods need to be loaded for the shelf to load */
+  $depends?: string[];
   /** Readable name. Will be displayed in the settings. Keep it short. */
   name: string;
   /** Optional. How many rows for the entire shelf. Default=1. */

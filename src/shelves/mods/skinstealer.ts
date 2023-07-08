@@ -2,6 +2,7 @@ export const ssLore: Shelf = {
   id: "kat.skinstealer.lore",
   name: "[KS] Skinstealer Lore",
   category: "",
+  $depends: ["2792602803"],
   rows: 1,
   columns: 9,
   areas: [
@@ -24,10 +25,12 @@ export const ssStashes: Shelf = {
   name: "[KS] Skinstealer Hiding Places",
   rows: 1,
   columns: 15,
+  $depends: ["2792602803"],
   areas: [{ expression: "[stashlocation.empty]", columns: 15 }],
 };
 export const ssWays: Shelf = {
   id: "kat.skinstealer.ways",
+  $depends: ["2792602803"],
   name: "[KS] Skinstealer Ways Back Through Dream",
   rows: 3,
   columns: 2,
@@ -45,6 +48,7 @@ export const ssAbilities: Shelf = {
   name: "[KS] Skinstealer Abilities",
   rows: 4,
   columns: 4,
+  $depends: ["2792602803"],
   areas: [
     {
       expression: "([healthmoth] || [fatigue.moth]) && ![ingredient]",
@@ -127,6 +131,7 @@ export const ssAbilities: Shelf = {
 export const ssRituls: Shelf = {
   name: "[KS] Skinstealer Rituals",
   id: "kat.ss.rites",
+  $depends: ["2792602803"],
   rows: 1,
   columns: 5,
   areas: [

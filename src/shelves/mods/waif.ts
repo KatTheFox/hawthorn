@@ -2,6 +2,7 @@ export const waifHourMems: Shelf = {
   category: "",
   id: "kat.waif.hour.mems",
   name: "[KS] Waif Hour Meories",
+  $depends: ["2994256903"],
   rows: 3,
   priority: 3,
   background: "memory",
@@ -143,6 +144,7 @@ export const waifHourMems: Shelf = {
   ],
 };
 export const waifPracticalShelf: Shelf = {
+  $depends: ["2994256903"],
   category: "",
   id: "kat.waif.practical",
   name: "[KS] Waif Practical Items",
@@ -210,6 +212,7 @@ export const waifOccultShelf: Shelf = {
   category: "",
   id: "kat.waif.occult",
   name: "[KS] Waif Occult Items",
+  $depends: ["2994256903"],
   rows: 1,
   columns: 9,
   background: "ritual",
@@ -273,6 +276,7 @@ export const waifOccultShelf: Shelf = {
 };
 export const waifBothShelf: Shelf = {
   category: "",
+  $depends: ["2994256903"],
   id: "kat.waif.both",
   name: "[KS] Waif Both Items",
   rows: 1,
@@ -336,6 +340,7 @@ export const waifBothShelf: Shelf = {
 };
 export const waifDesires: Shelf = {
   category: "",
+  $depends: ["2994256903"],
   id: "kat.waif.desires",
   name: "[KS] Waif Desires",
   background: "desire",
@@ -347,6 +352,7 @@ export const waifDesires: Shelf = {
 export const waifLocations: Shelf = {
   category: "",
   id: "kat.waif.locations",
+  $depends: ["2994256903"],
   name: "[KS] Waif Locations",
   rows: 1,
   background: "location",
@@ -366,6 +372,7 @@ export const waifChoices: Shelf = {
   background: "insight",
   style: "aligncenter",
   name: "[KS] Waif Choices",
+  $depends: ["2994256903"],
   rows: 1,
   columns: 4,
   areas: [

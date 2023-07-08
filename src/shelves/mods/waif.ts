@@ -145,7 +145,7 @@ export const waifHourMems: Shelf = {
 export const waifPracticalShelf: Shelf = {
   category: "",
   id: "kat.waif.practical",
-  name: "[KS] Waif Practical Placeholder",
+  name: "[KS] Waif Practical Items",
   background: "job",
   style: "aligncenter",
   rows: 1,
@@ -209,7 +209,7 @@ export const waifPracticalShelf: Shelf = {
 export const waifOccultShelf: Shelf = {
   category: "",
   id: "kat.waif.occult",
-  name: "[KS] Waif Occult Placeholder",
+  name: "[KS] Waif Occult Items",
   rows: 1,
   columns: 9,
   background: "ritual",
@@ -274,7 +274,7 @@ export const waifOccultShelf: Shelf = {
 export const waifBothShelf: Shelf = {
   category: "",
   id: "kat.waif.both",
-  name: "[KS] Waif Both Placeholder",
+  name: "[KS] Waif Both Items",
   rows: 1,
   columns: 9,
   areas: [

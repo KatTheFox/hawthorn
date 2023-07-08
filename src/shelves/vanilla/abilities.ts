@@ -41,11 +41,10 @@ export const abilities: Shelf = {
       expression: "[passionskill]",
     },
     {
-      id: "kat.ggjob",
+      id: "kat.job",
       x: 4,
       y: 2,
-      expression:
-        "[institutephysicianjob] || [gloverandgloverjuniorjob] || [gloverandgloverjuniorjob_demotion] || [gloverandglover_difficultbossa_job] || [gloverandgloverseniorjob] || [gloverandglover_difficultbossa_gone_job] || [gloverandgloverseniorjob_youngerglovergone] || [gloverandgloverjob_demotion] || [gloverandglovertopjob] || [gloverandgloverjob_youngerglovergone_demotion] || [gloverandglovertopjob_tainted_demotion] || [gloverandglovertopjob_tainted]",
+      expression: "[job]",
     },
     {
       id: "kat.health.exhausted",
@@ -68,6 +67,12 @@ export const abilities: Shelf = {
       expression: "[disillusionment] || [passionexhausted]",
       background: "statshelf_passion_exhausted",
     },
-    { id: "kat.desire", x: 4, y: 3, expression: "[desire] || [apostleforge.pillar1] || [apostlegrail.pillar1] || [apostlelantern.pillar1]" },
+    {
+      id: "kat.desire",
+      x: 4,
+      y: 3,
+      expression:
+        "[desire] || [apostleforge.pillar1] || [apostlegrail.pillar1] || [apostlelantern.pillar1] || [apostlemoon.pillar1]",
+    },
   ],
 };

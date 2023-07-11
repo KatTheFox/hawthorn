@@ -22,7 +22,7 @@ export const apostleGrail: Shelf = {
       x: 3,
       y: 1,
       expression: "[apostlegrail.pillar2] || [apostlegrail.pillar2.dormant]",
-      background: "lore_nectar_shelf",
+      background: "illhealth_shelf",
     },
     {
       x: 1,

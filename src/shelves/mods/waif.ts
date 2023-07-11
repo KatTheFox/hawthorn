@@ -1,12 +1,10 @@
 export const waifHourMems: Shelf = {
   category: "",
   id: "kat.waif.hour.mems",
-  background: "memory_shelf",
   name: "[KS] Waif Hour Meories",
   $depends: ["2994256903"],
   rows: 3,
   priority: 3,
-  style: "aligncenter",
   columns: 7,
   areas: [
     // mothhour, watchman, velvet, malachite, thunderskin, mother of ants, wns, colonel, lionsmith, elegiast, beachcrow, meniscate, sun-in-rags, horned-axe, madrugad, grailhour, wolf divided, snw, flowermaker, forge of days
@@ -325,53 +323,62 @@ export const waifBothShelf: Shelf = {
       id: "kat.waif.both.secrethistories",
       expression:
         "[waif.practical] && [waif.occult] && ([secrethistories]>0) && [secrethistories]=[~/tabletop:{[waif.practical] && [waif.occult] && ![waif.hourmemory]}:aspectmax/secrethistories]",
+      background: "lore_secrethistories_shelf",
     },
     {
       id: "kat.waif.both.knock",
       expression:
         "[waif.practical] && [waif.occult] && ([knock]>0) && [knock]=[~/tabletop:{[waif.practical] && [waif.occult] && ![waif.hourmemory]}:aspectmax/knock]",
+      background: "lore_knock_shelf",
       x: 2,
     },
     {
       id: "kat.waif.both.lantern",
       expression:
         "[waif.practical] && [waif.occult] && ([lantern]>0) && [lantern]=[~/tabletop:{[waif.practical] && [waif.occult] && ![waif.hourmemory]}:aspectmax/lantern]",
+      background: "lore_lantern_shelf",
       x: 3,
     },
     {
       id: "kat.waif.both.forge",
       expression:
         "[waif.practical] && [waif.occult] && ([forge]>0) && [forge]=[~/tabletop:{[waif.practical] && [waif.occult] && ![waif.hourmemory]}:aspectmax/forge]",
+      background: "lore_forge_shelf",
       x: 4,
     },
     {
       id: "kat.waif.both.edge",
       expression:
         "[waif.practical] && [waif.occult] && ([edge]>0) && [edge]=[~/tabletop:{[waif.practical] && [waif.occult] && ![waif.hourmemory]}:aspectmax/edge]",
+      background: "lore_edge_shelf",
       x: 5,
     },
     {
       id: "kat.waif.both.winter",
       expression:
         "[waif.practical] && [waif.occult] && ([winter]>0) && [winter]=[~/tabletop:{[waif.practical] && [waif.occult] && ![waif.hourmemory]}:aspectmax/winter]",
+      background: "lore_winter_shelf",
       x: 6,
     },
     {
       id: "kat.waif.both.heart",
       expression:
         "[waif.practical] && [waif.occult] && ([heart]>0) && [heart]=[~/tabletop:{[waif.practical] && [waif.occult] && ![waif.hourmemory]}:aspectmax/heart]",
+      background: "lore_heart_shelf",
       x: 7,
     },
     {
       id: "kat.waif.both.moth",
       expression:
         "[waif.practical] && [waif.occult] && ([moth]>0) && [moth]=[~/tabletop:{[waif.practical] && [waif.occult] && ![waif.hourmemory]}:aspectmax/moth]",
+      background: "lore_moth_shelf",
       x: 8,
     },
     {
       id: "kat.waif.both.grail",
       expression:
         "[waif.practical] && [waif.occult] && ([grail]>0) && [grail]=[~/tabletop:{[waif.practical] && [waif.occult] && ![waif.hourmemory]}:aspectmax/grail]",
+      background: "lore_grail_shelf",
       x: 9,
     },
   ],
@@ -403,7 +410,7 @@ export const waifLocations: Shelf = {
   name: "[KS] Waif Locations",
   rows: 1,
   style: "aligncenter",
-  columns: 8,
+  columns: 4,
   areas: [
     {
       expression:
@@ -427,30 +434,6 @@ export const waifLocations: Shelf = {
       expression:
         "[waif.inruins] || [waif.insea] || [waif.incaves] || [waif.inforest]",
       x: 4,
-      background: "location_shelf",
-    },
-    {
-      expression:
-        "[waif.inruins] || [waif.insea] || [waif.incaves] || [waif.inforest]",
-      x: 5,
-      background: "location_shelf",
-    },
-    {
-      expression:
-        "[waif.inruins] || [waif.insea] || [waif.incaves] || [waif.inforest]",
-      x: 6,
-      background: "location_shelf",
-    },
-    {
-      expression:
-        "[waif.inruins] || [waif.insea] || [waif.incaves] || [waif.inforest]",
-      x: 7,
-      background: "location_shelf",
-    },
-    {
-      expression:
-        "[waif.inruins] || [waif.insea] || [waif.incaves] || [waif.inforest]",
-      x: 8,
       background: "location_shelf",
     },
   ],

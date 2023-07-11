@@ -9,6 +9,7 @@ import {
   exileWincons,
   pentiments,
 } from "./shelves/legacies/exile";
+import { exorcistTools } from "./shelves/mods/exorcist";
 import {
   ssAbilities,
   ssLore,
@@ -38,6 +39,7 @@ import { waysThroughDream } from "./shelves/vanilla/ways";
 
 export const shelves = {
   shelves: [
+    exorcistTools,
     abilities,
     locations,
     spintria,

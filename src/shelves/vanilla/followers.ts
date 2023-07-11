@@ -210,6 +210,7 @@ export const jwfollowers: Shelf = {
   category: "followers",
   name: "[KS] JW Followers",
   rows: 4,
+  $depends: ["2220870091"],
   columns: 9,
   areas: [
     {

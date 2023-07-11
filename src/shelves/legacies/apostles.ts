@@ -52,19 +52,19 @@ export const apostleGrail: Shelf = {
       x: 1,
       y: 3,
       expression: "[ingredientgraild]",
-      background: "ingredient_shelf",
+      background: "ing_shelf",
     },
     {
       x: 2,
       y: 3,
       expression: "[ingredientmothd]",
-      background: "ingredient_shelf",
+      background: "ing_shelf",
     },
     {
       x: 3,
       y: 3,
       expression: "[ingredientheartf]",
-      background: "ingredient_shelf",
+      background: "ing_shelf",
     },
   ],
 };

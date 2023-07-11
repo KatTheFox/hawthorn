@@ -209,7 +209,7 @@ export const ssAbilities: Shelf = {
       x: 1,
       y: 4,
       expression: "[currentid]",
-      background: "id_shelf",
+      background: "follower_shelf",
     },
     {
       x: 2,

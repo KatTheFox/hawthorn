@@ -1,7 +1,7 @@
 export const exorcistTools: Shelf = {
   id: "kat.exorcist.tools",
   name: "[KS] Exorcist Tools",
-  $depends: ["The Exorcist"],
+  $depends: ["3001901429"],
   rows: 1,
   columns: 7,
   areas: [
@@ -46,7 +46,7 @@ export const exorcistTools: Shelf = {
 export const exorcistJob: Shelf = {
   id: "kat.exorcist.job",
   name: "[KS] Exorcist Job",
-  $depends: ["The Exorcist"],
+  $depends: ["3001901429"],
   rows: 1,
   columns: 3,
   areas: [

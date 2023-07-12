@@ -9,7 +9,7 @@ import {
   exileWincons,
   pentiments,
 } from "./shelves/legacies/exile";
-import { exorcistTools } from "./shelves/mods/exorcist";
+import { exorcistJob, exorcistTools } from "./shelves/mods/exorcist";
 import {
   ssAbilities,
   ssLore,
@@ -53,6 +53,7 @@ export const shelves = {
     followers,
     loreNoSH,
     pentiments,
+
     waysThroughDream,
     apostleLantern,
     pigments,
@@ -71,5 +72,6 @@ export const shelves = {
     waifPracticalShelf,
     waifLocations,
     waifChoices,
+    exorcistJob,
   ],
 };

@@ -3,6 +3,7 @@ export const exorcistTools: Shelf = {
   name: "[KS] Exorcist Tools",
   $depends: ["3001901429"],
   rows: 1,
+  priority: 4,
   columns: 7,
   areas: [
     {
@@ -49,6 +50,7 @@ export const exorcistJob: Shelf = {
   $depends: ["3001901429"],
   rows: 1,
   columns: 3,
+  priority: 4,
   areas: [
     {
       x: 1,
@@ -58,7 +60,8 @@ export const exorcistJob: Shelf = {
     {
       x: 2,
       background: "vault_shelf",
-      expression: "[exorcist.haunted] || [exorcist.scamjobhouse]",
+      expression:
+        "[exorcist.haunted] || [exorcist.scamjobhouse] || [exorcist.firsthouse]",
     },
     {
       x: 3,

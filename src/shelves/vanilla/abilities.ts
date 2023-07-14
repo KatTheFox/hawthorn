@@ -4,8 +4,6 @@ export const abilities: Shelf = {
   name: "[KS] Abilities",
   rows: 3,
   columns: 4,
-
-  priority: 4,
   areas: [
     {
       id: "kat.health",

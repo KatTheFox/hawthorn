@@ -9,6 +9,7 @@ import {
   exileWincons,
   pentiments,
 } from "./shelves/legacies/exile";
+import { apostleMoon, soulementsShelf } from "./shelves/mods/apostlemoon";
 import { exorcistJob, exorcistTools } from "./shelves/mods/exorcist";
 import {
   ssAbilities,
@@ -17,6 +18,7 @@ import {
   ssStashes,
   ssWays,
 } from "./shelves/mods/skinstealer";
+import { upFromNowhere } from "./shelves/mods/upfromnowhere";
 import {
   waifBothShelf,
   waifChoices,
@@ -33,7 +35,7 @@ import { locations } from "./shelves/vanilla/locations";
 import { lore, loreNoSH } from "./shelves/vanilla/lore";
 import { pigments } from "./shelves/vanilla/pigments";
 import { rites } from "./shelves/vanilla/rites";
-import { spintria } from "./shelves/vanilla/spintria";
+import { patrons, spintria } from "./shelves/vanilla/spintria";
 import { tools } from "./shelves/vanilla/tools";
 import { waysThroughDream } from "./shelves/vanilla/ways";
 
@@ -73,5 +75,9 @@ export const shelves = {
     waifLocations,
     waifChoices,
     exorcistJob,
+    patrons,
+    upFromNowhere,
+    apostleMoon,
+    soulementsShelf,
   ],
 };

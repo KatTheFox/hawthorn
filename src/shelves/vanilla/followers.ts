@@ -454,7 +454,7 @@ export const jwfollowers: Shelf = {
     {
       background: "follower_shelf",
       expression:
-        "[ysabet_a] || [ysabet_a_worm] || [ysabet_b] || [ysabet_b_worm] || [ysabet_c] || [ysabet_c_worm] || [ysabet_r] || [ysabet_r_worm] || [ysabet_p] || [ysabet_p_worm] || [ysabet_d] || [ysabet_d_worm]",
+        "[ysabet_a] || [ysabet_a_worm] || [ysabet_b] || [ysabet_b_worm] || [ysabet_c] || [ysabet_memory] || [ysabet_r] || [ysabet_r_worm] || [ysabet_p] || [ysabet_p_worm] || [ysabet_d] || [ysabet_d_worm]",
       x: 9,
       y: 1,
     },

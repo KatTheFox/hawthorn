@@ -2,7 +2,7 @@ export const apostleMoon: Shelf = {
   id: "kat.apostlemoon",
   name: "[KS] Apostle Moon",
   $depends: ["2995921343"],
-  rows: 5,
+  rows: 3,
   columns: 3,
   priority: 4,
   areas: [
@@ -10,7 +10,7 @@ export const apostleMoon: Shelf = {
       x: 1,
       background: "coldfire_shelf",
       expression:
-        "[apostlemoon.coldfire] || ( [winter]>0) && [winter]=[~/tabletop:{[influence]}:aspectmax/winter] )",
+        "[apostlemoon.coldfire] || ([influence] && [winter] && [winter]=[~/tabletop:{[influence]}:aspectmax/winter] )",
     },
     {
       x: 2,
@@ -44,15 +44,27 @@ export const apostleMoon: Shelf = {
     {
       x: 1,
       y: 3,
-      background: "ability_shelf",
-      expression: "[ability.mentor] || [ability.myself]",
+      background: "ing_shelf",
+      expression: "[toolforgeb] || [apostlemoon.mercury.cinnabar]",
+    },
+    {
+      x: 2,
+      y: 3,
+      background: "ing_shelf",
+      expression: "[apostlemoon.mercury.xanthotic] || [ingredientforged]",
+    },
+    {
+      x: 3,
+      y: 3,
+      background: "ing_shelf",
+      expression: "[apostlemoon.mercury.glassfinger] || [ingredientlanternd]",
     },
   ],
   category: "apostles",
 };
 export const soulementsShelf: Shelf = {
   id: "kat.soulements",
-  name: "[KS] Apostle Moon Soul Eleements",
+  name: "[KS] Apostle Moon Soul Elements",
   $depends: ["2995921343"],
   rows: 3,
   columns: 3,

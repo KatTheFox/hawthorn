@@ -25,7 +25,8 @@ export const waysThroughDream: Shelf = {
     {
       x: 2,
       y: 3,
-      expression: "[apostlelantern.pillar2]",
+      expression:
+        "[apostlelantern.pillar2] || [oracle.ability] || [oracle.ability.cooldown] || [oracle.ability.pre.cooldown]",
       background: "grief_shelf",
     },
   ],

@@ -13,6 +13,14 @@ import {
 } from "./shelves/legacies/exile";
 import { apostleMoon, soulementsShelf } from "./shelves/mods/apostlemoon";
 import { bmapMisc, bmapWeapons, bmapWincons } from "./shelves/mods/bmap";
+import {
+  advancedPlantShelf,
+  advancedSeedShelf,
+  basicPlantShelf,
+  basicSeedShelf,
+  botanistEssentials,
+  botanistPotions,
+} from "./shelves/mods/botanist";
 import { exorcistJob, exorcistTools } from "./shelves/mods/exorcist";
 import {
   ssAbilities,
@@ -87,5 +95,11 @@ export const shelves = {
     bmapWeapons,
     exileAssets,
     bmapMisc,
+    basicPlantShelf,
+    basicSeedShelf,
+    advancedPlantShelf,
+    advancedSeedShelf,
+    botanistEssentials,
+    botanistPotions,
   ],
 };

@@ -1,0 +1,443 @@
+export const basicPlantShelf: Shelf = {
+  id: "kat.botanist.plants",
+  name: "[KS] Botanist Basic Plant Shelf",
+  priority: 4,
+  $depends: ["2982381815"],
+  rows: 1,
+  columns: 9,
+  areas: [
+    {
+      expression: "[plant.snakegrass]",
+      background: "plant_shelf",
+    },
+    {
+      expression: "[plant.hawthorn]",
+      background: "plant_shelf",
+      x: 2,
+    },
+    {
+      expression: "[plant.rhododendron]",
+      background: "plant_shelf",
+      x: 3,
+    },
+    {
+      expression: "[plant.fennel]",
+      background: "plant_shelf",
+      x: 4,
+    },
+    {
+      expression: "[plant.horseradish]",
+      background: "plant_shelf",
+      x: 5,
+    },
+    {
+      expression: "[plant.orchid]",
+      background: "plant_shelf",
+      x: 6,
+    },
+    {
+      expression: "[plant.ginger]",
+      background: "plant_shelf",
+      x: 7,
+    },
+    {
+      expression: "[plant.anise]",
+      background: "plant_shelf",
+      x: 8,
+    },
+    {
+      expression: "[plant.woodear]",
+      background: "plant_shelf",
+      x: 9,
+    },
+  ],
+};
+export const advancedPlantShelf: Shelf = {
+  id: "kat.botanist.advancedplants",
+  name: "[KS] Botanist Occult Plant Shelf",
+  priority: 4,
+  $depends: ["2982381815"],
+  rows: 2,
+  columns: 9,
+  areas: [
+    {
+      background: "plant_shelf",
+      expression: "[plant.grubroot]",
+      y: 1,
+      x: 1,
+    },
+    {
+      background: "plant_shelf",
+      expression: "[plant.astray]",
+      y: 2,
+      x: 1,
+    },
+    {
+      background: "plant_shelf",
+      expression: "[plant.rose]",
+      y: 1,
+      x: 2,
+    },
+    {
+      background: "plant_shelf",
+      expression: "[plant.raskovnik]",
+      y: 2,
+      x: 2,
+    },
+    {
+      background: "plant_shelf",
+      expression: "[plant.moonflower]",
+      y: 1,
+      x: 3,
+    },
+    {
+      background: "plant_shelf",
+      expression: "[plant.amber]",
+      y: 2,
+      x: 3,
+    },
+    {
+      background: "plant_shelf",
+      expression: "[plant.dawnflower]",
+      y: 1,
+      x: 4,
+    },
+    {
+      background: "plant_shelf",
+      expression: "[plant.cactus]",
+      y: 2,
+      x: 4,
+    },
+    {
+      background: "plant_shelf",
+      expression: "[plant.smokeleaf]",
+      y: 1,
+      x: 5,
+    },
+    {
+      background: "plant_shelf",
+      expression: "[plant.yateveo]",
+      y: 2,
+      x: 5,
+    },
+    {
+      background: "plant_shelf",
+      expression: "[plant.ghoulmould]",
+      y: 1,
+      x: 6,
+    },
+    {
+      background: "plant_shelf",
+      expression: "[plant.asphodel] || [plant.asphodel.memory]",
+      y: 2,
+      x: 6,
+    },
+    {
+      background: "plant_shelf",
+      expression: "[plant.seaholly]",
+      y: 1,
+      x: 7,
+    },
+    {
+      background: "plant_shelf",
+      expression: "[plant.moly]",
+      y: 2,
+      x: 7,
+    },
+    {
+      background: "plant_shelf",
+      expression: "[plant.foxlily]",
+      y: 1,
+      x: 8,
+    },
+    {
+      background: "plant_shelf",
+      expression: "[plant.pineblood]",
+      y: 2,
+      x: 8,
+    },
+    {
+      background: "plant_shelf",
+      expression: "[plant.vine]",
+      y: 1,
+      x: 9,
+    },
+    {
+      background: "plant_shelf",
+      expression: "[plant.hemlock]",
+      y: 2,
+      x: 9,
+    },
+  ],
+};
+export const basicSeedShelf: Shelf = {
+  id: "kat.botanist.seeds",
+  priority: 4,
+  $depends: ["2982381815"],
+  name: "[KS] Botanist Basic Seed Shelf",
+  rows: 1,
+  columns: 9,
+  areas: [
+    {
+      expression: "[seed.snakegrass]",
+      background: "seed_shelf",
+    },
+    {
+      expression: "[seed.hawthorn]",
+      background: "seed_shelf",
+      x: 2,
+    },
+    {
+      expression: "[seed.rhododendron]",
+      background: "seed_shelf",
+      x: 3,
+    },
+    {
+      expression: "[seed.fennel]",
+      background: "seed_shelf",
+      x: 4,
+    },
+    {
+      expression: "[seed.horseradish]",
+      background: "seed_shelf",
+      x: 5,
+    },
+    {
+      expression: "[seed.orchid]",
+      background: "seed_shelf",
+      x: 6,
+    },
+    {
+      expression: "[seed.ginger]",
+      background: "seed_shelf",
+      x: 7,
+    },
+    {
+      expression: "[seed.anise]",
+      background: "seed_shelf",
+      x: 8,
+    },
+    {
+      expression: "[seed.woodear]",
+      background: "seed_shelf",
+      x: 9,
+    },
+  ],
+};
+export const advancedSeedShelf: Shelf = {
+  id: "kat.botanist.advancedseeds",
+  name: "[KS] Botanist Occult Seed Shelf",
+  rows: 2,
+  priority: 4,
+  $depends: ["2982381815"],
+  columns: 9,
+  areas: [
+    {
+      background: "seed_shelf",
+      expression: "[seed.grubroot]",
+      y: 1,
+      x: 1,
+    },
+    {
+      background: "seed_shelf",
+      expression: "[seed.astray]",
+      y: 2,
+      x: 1,
+    },
+    {
+      background: "seed_shelf",
+      expression: "[seed.rose]",
+      y: 1,
+      x: 2,
+    },
+    {
+      background: "seed_shelf",
+      expression: "[seed.raskovnik]",
+      y: 2,
+      x: 2,
+    },
+    {
+      background: "seed_shelf",
+      expression: "[seed.moonflower]",
+      y: 1,
+      x: 3,
+    },
+    {
+      background: "seed_shelf",
+      expression: "[seed.amber]",
+      y: 2,
+      x: 3,
+    },
+    {
+      background: "seed_shelf",
+      expression: "[seed.dawnflower]",
+      y: 1,
+      x: 4,
+    },
+    {
+      background: "seed_shelf",
+      expression: "[seed.cactus]",
+      y: 2,
+      x: 4,
+    },
+    {
+      background: "seed_shelf",
+      expression: "[seed.smokeleaf]",
+      y: 1,
+      x: 5,
+    },
+    {
+      background: "seed_shelf",
+      expression: "[seed.yateveo]",
+      y: 2,
+      x: 5,
+    },
+    {
+      background: "seed_shelf",
+      expression: "[seed.ghoulmould]",
+      y: 1,
+      x: 6,
+    },
+    {
+      background: "seed_shelf",
+      expression: "[seed.asphodel] ",
+      y: 2,
+      x: 6,
+    },
+    {
+      background: "seed_shelf",
+      expression: "[seed.seaholly]",
+      y: 1,
+      x: 7,
+    },
+    {
+      background: "seed_shelf",
+      expression: "[seed.moly]",
+      y: 2,
+      x: 7,
+    },
+    {
+      background: "seed_shelf",
+      expression: "[seed.foxlily]",
+      y: 1,
+      x: 8,
+    },
+    {
+      background: "seed_shelf",
+      expression: "[seed.pineblood]",
+      y: 2,
+      x: 8,
+    },
+    {
+      background: "seed_shelf",
+      expression: "[seed.vine]",
+      y: 1,
+      x: 9,
+    },
+    {
+      background: "seed_shelf",
+      expression: "[seed.hemlock]",
+      y: 2,
+      x: 9,
+    },
+  ],
+};
+export const botanistEssentials: Shelf = {
+  id: "kat.botanist.essentials",
+  name: "[KS] Botanist Essentials",
+  $depends: ["2982381815"],
+  rows: 1,
+  priority: 4,
+  columns: 4,
+  areas: [
+    {
+      background: "location_shelf",
+      expression: "[plantshop]||[plantshop.first]",
+    },
+    {
+      background: "book_shelf",
+      expression: "[plantbook]",
+      x: 2,
+    },
+    {
+      background: "weather_shelf",
+      expression: "[condition]",
+      x: 3,
+    },
+    {
+      background: "botanist_shelf",
+      expression: "[botanist]",
+      x: 4,
+    },
+  ],
+};
+
+export const botanistPotions: Shelf = {
+  id: "kat.botanist.potions",
+  $depends: ["2982381815"],
+  name: "[KS] Botanist Potions",
+  rows: 1,
+  columns: 10,
+  areas: [
+    {
+      background: "ing_shelf",
+      expression: "[potion.healinjury]",
+      x: 1,
+      y: 1,
+    },
+    {
+      background: "ing_shelf",
+      expression: "[potion.healaffliction]",
+      x: 2,
+      y: 1,
+    },
+    {
+      background: "ing_shelf",
+      expression: "[potion.absinthe]",
+      x: 3,
+      y: 1,
+    },
+    {
+      background: "ing_shelf",
+      expression: "[potion.bravery]",
+      x: 4,
+      y: 1,
+    },
+    {
+      background: "ing_shelf",
+      expression: "[potion.minorpoison]",
+      x: 5,
+      y: 1,
+    },
+    {
+      background: "ing_shelf",
+      expression: "[potion.truth]",
+      x: 6,
+      y: 1,
+    },
+    {
+      background: "ing_shelf",
+      expression: "[potion.tallyink]",
+      x: 7,
+      y: 1,
+    },
+    {
+      background: "ing_shelf",
+      expression: "[potion.protection]",
+      x: 8,
+      y: 1,
+    },
+    {
+      background: "ing_shelf",
+      expression: "[potion.majorpoison]",
+      x: 9,
+      y: 1,
+    },
+    {
+      background: "ing_shelf",
+      expression: "[potion.blood]",
+      x: 10,
+      y: 1,
+    },
+  ],
+};

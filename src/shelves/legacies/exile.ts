@@ -2,10 +2,11 @@ export const exileWeapons: Shelf = {
   id: "kat.exile.weapons",
   category: "exile",
   name: "[KS] Weapons",
+  priority: 4,
   rows: 1,
   columns: 7,
   areas: [
-    { expression: "[lore]", background: "lore_edge_shelf" },
+    { expression: "[lore] && [edge]", background: "lore_edge_shelf" },
     {
       expression: "[weapon.a] || [weapon.a.exhausted]",
       background: "tool_shelf",
@@ -36,6 +37,86 @@ export const exileWeapons: Shelf = {
       x: 7,
       expression: "[weapon.f.lionsmith] || [weapon.f.colonel]",
       background: "tool_shelf",
+    },
+  ],
+};
+export const exileAssets: Shelf = {
+  id: "kat.exile.assets",
+  category: "exile",
+  name: "[KS] Assets",
+  rows: 1,
+  columns: 8,
+  areas: [
+    {
+      x: 1,
+      expression:
+        "[asset] && ![weapon] && ([knock]>0) && [knock]=[~/[world,threshold,output]+:{[asset] && ![cash] && ![weapon]}:aspectmax/knock]",
+      background: "lore_knock_shelf",
+    },
+    {
+      x: 2,
+      expression:
+        "[asset] && ![weapon] && ([lantern]>0) && [lantern]=[~/[world,threshold,output]+:{[asset] && ![cash] && ![weapon]}:aspectmax/lantern]",
+      background: "lore_lantern_shelf",
+    },
+    {
+      x: 3,
+      expression:
+        "[asset] && ![weapon] && ([forge]>0) && [forge]=[~/[world,threshold,output]+:{[asset] && ![cash] && ![weapon]}:aspectmax/forge]",
+      background: "lore_forge_shelf",
+    },
+    {
+      x: 4,
+      expression:
+        "[asset] && ![weapon] && ([edge]>0) && [edge]=[~/[world,threshold,output]+:{[asset] && ![cash] && ![weapon]}:aspectmax/edge]",
+      background: "lore_edge_shelf",
+    },
+    {
+      x: 5,
+      expression:
+        "[asset] && ![weapon] && ([winter]>0) && [winter]=[~/[world,threshold,output]+:{[asset] && ![cash] && ![weapon]}:aspectmax/winter]",
+      background: "lore_winter_shelf",
+    },
+    {
+      x: 6,
+      expression:
+        "[asset] && ![weapon] && ([heart]>0) && [heart]=[~/[world,threshold,output]+:{[asset] && ![cash] && ![weapon]}:aspectmax/heart]",
+      background: "lore_heart_shelf",
+    },
+    {
+      x: 7,
+      expression:
+        "[asset] && ![weapon] && ([grail]>0) && [grail]=[~/[world,threshold,output]+:{[asset] && ![cash] && ![weapon]}:aspectmax/grail]",
+      background: "lore_grail_shelf",
+    },
+    {
+      x: 8,
+      expression:
+        "[asset] && ![weapon] && ([moth]>0) && [moth]=[~/[world,threshold,output]+:{[asset] && ![cash] && ![weapon]}:aspectmax/moth]",
+      background: "lore_moth_shelf",
+    },
+  ],
+};
+export const exileYearsAndTraces: Shelf = {
+  id: "kat.exile.years",
+  category: "exile",
+  name: "[KS] Years and Traces",
+  rows: 1,
+  columns: 3,
+  areas: [
+    {
+      expression: "[decade.stolen]",
+      background: "decade_shelf",
+    },
+    {
+      x: 2,
+      expression: "[year.stolen]",
+      background: "year_shelf",
+    },
+    {
+      x: 3,
+      expression: "[trace]",
+      background: "trace_shelf",
     },
   ],
 };
@@ -96,11 +177,12 @@ export const exileAllies: Shelf = {
   ],
 };
 export const exileWincons: Shelf = {
-  name: "[KS] Exile Misc",
+  name: "[KS] Exile Essentials",
   id: "kat.exile.wincons",
   category: "exile",
   rows: 2,
-  columns: 5,
+  columns: 6,
+  priority: 3,
   areas: [
     {
       expression: "[temptation.defiance]",
@@ -154,13 +236,17 @@ export const exileWincons: Shelf = {
     },
     { x: 5, y: 2, expression: "[domicile]", background: "location_shelf" },
     { x: 5, y: 1, expression: "[cash]", background: "funds_shelf" },
+    { x: 6, y: 1, expression: "[contact.local]", background: "location_shelf" },
+    { x: 6, y: 2, expression: "[vault]", background: "vault_shelf" },
   ],
 };
+
 export const pentiments: Shelf = {
   id: "kat.exile.pentiments",
   name: "[KS] Pentiments",
   category: "exile",
-  columns: 10,
+  columns: 7,
+  priority: 3,
   areas: [
     {
       x: 1,
@@ -194,21 +280,6 @@ export const pentiments: Shelf = {
     },
     {
       x: 7,
-      expression: "[pentiment]",
-      background: "pentiment_shelf",
-    },
-    {
-      x: 8,
-      expression: "[pentiment]",
-      background: "pentiment_shelf",
-    },
-    {
-      x: 9,
-      expression: "[pentiment]",
-      background: "pentiment_shelf",
-    },
-    {
-      x: 10,
       expression: "[pentiment]",
       background: "pentiment_shelf",
     },

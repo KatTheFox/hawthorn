@@ -5,11 +5,14 @@ import {
 } from "./shelves/legacies/apostles";
 import {
   exileAllies,
+  exileAssets,
   exileWeapons,
   exileWincons,
+  exileYearsAndTraces,
   pentiments,
 } from "./shelves/legacies/exile";
 import { apostleMoon, soulementsShelf } from "./shelves/mods/apostlemoon";
+import { bmapMisc, bmapWeapons, bmapWincons } from "./shelves/mods/bmap";
 import { exorcistJob, exorcistTools } from "./shelves/mods/exorcist";
 import {
   ssAbilities,
@@ -79,5 +82,10 @@ export const shelves = {
     upFromNowhere,
     apostleMoon,
     soulementsShelf,
+    exileYearsAndTraces,
+    bmapWincons,
+    bmapWeapons,
+    exileAssets,
+    bmapMisc,
   ],
 };

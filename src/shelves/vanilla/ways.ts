@@ -1,5 +1,5 @@
 export const waysThroughDream: Shelf = {
-  name: "[KS] Ways Back Through Dream",
+  name: "<sprite name=colours.liminal> Ways Back Through Dream",
   id: "kat.mansus",
   category: "ways",
   columns: 2,

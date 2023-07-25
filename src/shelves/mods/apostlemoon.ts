@@ -1,6 +1,6 @@
 export const apostleMoon: Shelf = {
   id: "kat.apostlemoon",
-  name: "[KS] Apostle Moon",
+  name: "<sprite name=colours.liminal> Apostle Moon",
   $depends: ["2995921343"],
   rows: 3,
   columns: 3,
@@ -64,7 +64,7 @@ export const apostleMoon: Shelf = {
 };
 export const soulementsShelf: Shelf = {
   id: "kat.soulements",
-  name: "[KS] Apostle Moon Soul Elements",
+  name: "<sprite name=colours.liminal> Apostle Moon Soul Elements",
   $depends: ["2995921343"],
   rows: 3,
   columns: 3,

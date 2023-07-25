@@ -1,7 +1,7 @@
 export const spintria: Shelf = {
   category: "",
   id: "kat.spintria",
-  name: "[KS] Spintria",
+  name: "<sprite name=colours.liminal> Spintria",
   rows: 4,
   areas: [
     {
@@ -32,7 +32,7 @@ export const spintria: Shelf = {
 export const patrons: Shelf = {
   category: "",
   id: "kat.patrons",
-  name: "[KS] Patrons and Commisions [Compact]",
+  name: "<sprite name=colours.liminal> Patrons and Commisions [Compact]",
   rows: 4,
   columns: 3,
   $depends: ["2990223882"],

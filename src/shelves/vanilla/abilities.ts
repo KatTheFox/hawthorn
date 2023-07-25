@@ -1,7 +1,7 @@
 export const abilities: Shelf = {
   category: "abilities",
   id: "kat.abilities",
-  name: "[KS] Abilities",
+  name: "<sprite name=colours.liminal> Abilities",
   rows: 3,
   columns: 4,
   areas: [

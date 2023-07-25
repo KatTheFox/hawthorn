@@ -1,5 +1,5 @@
 export const bmapWincons: Shelf = {
-  name: "[KS] BMap Exile Essentials",
+  name: "<sprite name=colours.liminal> BMap Exile Essentials",
   id: "kat.bmap.wincons",
   category: "exile",
   rows: 2,
@@ -64,7 +64,7 @@ export const bmapWincons: Shelf = {
   ],
 };
 export const bmapMisc: Shelf = {
-  name: "[KS] BMap Misc",
+  name: "<sprite name=colours.liminal> BMap Misc",
   id: "kat.bmap.misc",
   category: "exile",
   rows: 1,
@@ -76,7 +76,7 @@ export const bmapMisc: Shelf = {
   ],
 };
 export const bmapWeapons: Shelf = {
-  name: "[KS] BMap Weapons",
+  name: "<sprite name=colours.liminal> BMap Weapons",
   id: "kat.bmap.weapons",
   category: "exile",
 

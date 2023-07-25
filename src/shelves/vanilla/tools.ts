@@ -1,5 +1,5 @@
 export const tools: Shelf = {
-  name: "[KS] Tools",
+  name: "<sprite name=colours.liminal> Tools",
   id: "kat.tools",
   category: "tools",
   rows: 1,

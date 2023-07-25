@@ -1,6 +1,6 @@
 export const locations: Shelf = {
   category: "",
-  name: "[KS] Locations",
+  name: "<sprite name=colours.liminal> Locations",
   id: "kat.locations",
   rows: 1,
   columns: 3,

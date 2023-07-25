@@ -1,6 +1,6 @@
 export const pigments: Shelf = {
   id: "kat.pigments",
-  name: "[KS] Pigments",
+  name: "<sprite name=colours.liminal> Pigments",
   category: "ingredients",
   rows: 1,
   columns: 8,

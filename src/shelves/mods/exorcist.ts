@@ -1,6 +1,6 @@
 export const exorcistTools: Shelf = {
   id: "kat.exorcist.tools",
-  name: "[KS] Exorcist Tools",
+  name: "<sprite name=colours.liminal> Exorcist Tools",
   $depends: ["3001901429"],
   rows: 1,
   priority: 4,
@@ -46,7 +46,7 @@ export const exorcistTools: Shelf = {
 };
 export const exorcistJob: Shelf = {
   id: "kat.exorcist.job",
-  name: "[KS] Exorcist Job",
+  name: "<sprite name=colours.liminal> Exorcist Job",
   $depends: ["3001901429"],
   rows: 1,
   columns: 3,

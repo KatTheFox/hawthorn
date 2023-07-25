@@ -1,7 +1,7 @@
 export const apostleGrail: Shelf = {
   id: "kat.apostle.grail",
   category: "apostles",
-  name: "[KS] Grail Apostle",
+  name: "<sprite name=colours.liminal> Grail Apostle",
   rows: 4,
   columns: 3,
   areas: [
@@ -70,7 +70,7 @@ export const apostleGrail: Shelf = {
 };
 export const apostleForge: Shelf = {
   id: "kat.apostle.forge",
-  name: "[KS] Forge Apostle",
+  name: "<sprite name=colours.liminal> Forge Apostle",
   category: "apostles",
   rows: 2,
   columns: 3,
@@ -117,7 +117,7 @@ export const apostleForge: Shelf = {
 };
 export const apostleLantern: Shelf = {
   id: "kat.apostle.lantern",
-  name: "[KS] Lantern Apostle",
+  name: "<sprite name=colours.liminal> Lantern Apostle",
 
   category: "apostles",
   rows: 2,

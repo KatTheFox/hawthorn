@@ -1,7 +1,7 @@
 export const exileWeapons: Shelf = {
   id: "kat.exile.weapons",
   category: "exile",
-  name: "[KS] Weapons",
+  name: "<sprite name=colours.liminal> Weapons",
   priority: 4,
   rows: 1,
   columns: 7,
@@ -43,7 +43,7 @@ export const exileWeapons: Shelf = {
 export const exileAssets: Shelf = {
   id: "kat.exile.assets",
   category: "exile",
-  name: "[KS] Assets",
+  name: "<sprite name=colours.liminal> Assets",
   rows: 1,
   columns: 8,
   areas: [
@@ -100,7 +100,7 @@ export const exileAssets: Shelf = {
 export const exileYearsAndTraces: Shelf = {
   id: "kat.exile.years",
   category: "exile",
-  name: "[KS] Years and Traces",
+  name: "<sprite name=colours.liminal> Years and Traces",
   rows: 1,
   columns: 3,
   areas: [
@@ -121,7 +121,7 @@ export const exileYearsAndTraces: Shelf = {
   ],
 };
 export const exileAllies: Shelf = {
-  name: "[KS] Allies",
+  name: "<sprite name=colours.liminal> Allies",
   id: "kat.exile.allies",
   category: "exile",
   rows: 1,
@@ -177,7 +177,7 @@ export const exileAllies: Shelf = {
   ],
 };
 export const exileWincons: Shelf = {
-  name: "[KS] Exile Essentials",
+  name: "<sprite name=colours.liminal> Exile Essentials",
   id: "kat.exile.wincons",
   category: "exile",
   rows: 2,
@@ -243,7 +243,7 @@ export const exileWincons: Shelf = {
 
 export const pentiments: Shelf = {
   id: "kat.exile.pentiments",
-  name: "[KS] Pentiments",
+  name: "<sprite name=colours.liminal> Pentiments",
   category: "exile",
   columns: 7,
   priority: 3,

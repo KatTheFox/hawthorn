@@ -1,6 +1,6 @@
 export const ssLore: Shelf = {
   id: "kat.skinstealer.lore",
-  name: "[KS] Skinstealer Lore",
+  name: "<sprite name=colours.liminal> Skinstealer Lore",
   category: "",
   $depends: ["2792602803"],
   rows: 1,
@@ -55,7 +55,7 @@ export const ssLore: Shelf = {
 };
 export const ssStashes: Shelf = {
   id: "kat.skinstealer.stashes",
-  name: "[KS] Skinstealer Hiding Places",
+  name: "<sprite name=colours.liminal> Skinstealer Hiding Places",
   rows: 1,
   columns: 15,
   $depends: ["2792602803"],
@@ -104,7 +104,7 @@ export const ssStashes: Shelf = {
 export const ssWays: Shelf = {
   id: "kat.skinstealer.ways",
   $depends: ["2792602803"],
-  name: "[KS] Skinstealer Ways Back Through Dream",
+  name: "<sprite name=colours.liminal> Skinstealer Ways Back Through Dream",
   rows: 3,
   columns: 2,
   areas: [
@@ -132,7 +132,7 @@ export const ssWays: Shelf = {
 };
 export const ssAbilities: Shelf = {
   id: "kat.skinstealer.abilities",
-  name: "[KS] Skinstealer Abilities",
+  name: "<sprite name=colours.liminal> Skinstealer Abilities",
   rows: 4,
   columns: 4,
   $depends: ["2792602803"],
@@ -232,7 +232,7 @@ export const ssAbilities: Shelf = {
   ],
 };
 export const ssRituls: Shelf = {
-  name: "[KS] Skinstealer Rituals",
+  name: "<sprite name=colours.liminal> Skinstealer Rituals",
   id: "kat.ss.rites",
   $depends: ["2792602803"],
   rows: 1,

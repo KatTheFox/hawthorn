@@ -1,5 +1,5 @@
 export const lore: Shelf = {
-  name: "[KS] Lore",
+  name: "<sprite name=colours.liminal> Lore",
   category: "lore",
   id: "kat.lore",
   rows: 8,
@@ -454,7 +454,7 @@ export const lore: Shelf = {
   ],
 };
 export const loreNoSH: Shelf = {
-  name: "[KS] Lore (No Secret Histories)",
+  name: "<sprite name=colours.liminal> Lore (No Secret Histories)",
   category: "lore",
   id: "kat.lore.compat",
   rows: 8,

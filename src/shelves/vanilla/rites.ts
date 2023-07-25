@@ -1,7 +1,7 @@
 export const rites: Shelf = {
   id: "kat.rites",
   category: "rites",
-  name: "[KS] Rites",
+  name: "<sprite name=colours.liminal> Rites",
   rows: 1,
   columns: 10,
   areas: [

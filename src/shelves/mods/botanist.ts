@@ -1,6 +1,6 @@
 export const basicPlantShelf: Shelf = {
   id: "kat.botanist.plants",
-  name: "[KS] Botanist Basic Plant Shelf",
+  name: "<sprite name=colours.liminal> Botanist Basic Plant Shelf",
   priority: 4,
   $depends: ["2982381815"],
   rows: 1,
@@ -54,7 +54,7 @@ export const basicPlantShelf: Shelf = {
 };
 export const advancedPlantShelf: Shelf = {
   id: "kat.botanist.advancedplants",
-  name: "[KS] Botanist Occult Plant Shelf",
+  name: "<sprite name=colours.liminal> Botanist Occult Plant Shelf",
   priority: 4,
   $depends: ["2982381815"],
   rows: 2,
@@ -174,7 +174,7 @@ export const basicSeedShelf: Shelf = {
   id: "kat.botanist.seeds",
   priority: 4,
   $depends: ["2982381815"],
-  name: "[KS] Botanist Basic Seed Shelf",
+  name: "<sprite name=colours.liminal> Botanist Basic Seed Shelf",
   rows: 1,
   columns: 9,
   areas: [
@@ -226,7 +226,7 @@ export const basicSeedShelf: Shelf = {
 };
 export const advancedSeedShelf: Shelf = {
   id: "kat.botanist.advancedseeds",
-  name: "[KS] Botanist Occult Seed Shelf",
+  name: "<sprite name=colours.liminal> Botanist Occult Seed Shelf",
   rows: 2,
   priority: 4,
   $depends: ["2982381815"],
@@ -344,7 +344,7 @@ export const advancedSeedShelf: Shelf = {
 };
 export const botanistEssentials: Shelf = {
   id: "kat.botanist.essentials",
-  name: "[KS] Botanist Essentials",
+  name: "<sprite name=colours.liminal> Botanist Essentials",
   $depends: ["2982381815"],
   rows: 1,
   priority: 4,
@@ -375,7 +375,7 @@ export const botanistEssentials: Shelf = {
 export const botanistPotions: Shelf = {
   id: "kat.botanist.potions",
   $depends: ["2982381815"],
-  name: "[KS] Botanist Potions",
+  name: "<sprite name=colours.liminal> Botanist Potions",
   rows: 1,
   columns: 10,
   areas: [

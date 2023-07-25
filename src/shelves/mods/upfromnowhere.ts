@@ -1,6 +1,6 @@
 export const upFromNowhere: Shelf = {
   id: "kat.upfromnowhere",
-  name: "[KS] Up From Nowhere",
+  name: "<sprite name=colours.liminal> Up From Nowhere",
   $depends: ["2220876149"],
   category: "",
   rows: 1,

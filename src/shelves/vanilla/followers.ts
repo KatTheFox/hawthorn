@@ -1,7 +1,7 @@
 export const followers: Shelf = {
   id: "kat.followers",
   category: "followers",
-  name: "[KS] Followers",
+  name: "<sprite name=colours.liminal> Followers",
   rows: 4,
   columns: 8,
   areas: [
@@ -208,7 +208,7 @@ export const followers: Shelf = {
 export const jwfollowers: Shelf = {
   id: "kat.jwfollowers",
   category: "followers",
-  name: "[KS] JW Followers",
+  name: "<sprite name=colours.liminal> JW Followers",
   rows: 4,
   $depends: ["2220870091"],
   columns: 9,

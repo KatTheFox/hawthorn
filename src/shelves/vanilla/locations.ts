@@ -7,19 +7,19 @@ export const locations: Shelf = {
   areas: [
     {
       id: "kat.oriflamme",
-      background: "location_shelf",
+      background: "hawthorn.location_shelf",
       expression: "[locationauctionhouse]",
     },
     {
       id: "kat.cabaret",
       x: 2,
-      background: "location_shelf",
+      background: "hawthorn.location_shelf",
       expression: "[locationcabaret] || [locationcabaretclosed]",
     },
     {
       id: "kat.morland",
       x: 3,
-      background: "location_shelf",
+      background: "hawthorn.location_shelf",
       expression: "[locationbookdealer] || [locationbookdealer_exhausted]",
     },
   ],

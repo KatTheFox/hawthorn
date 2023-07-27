@@ -8,17 +8,17 @@ export const cult: Shelf = {
     {
       x: 1,
       expression: "[society]",
-      background: "society_shelf",
+      background: "hawthorn.society_shelf",
     },
     {
       x: 2,
       expression: "[hq]",
-      background: "location_shelf",
+      background: "hawthorn.location_shelf",
     },
     {
       x: 3,
       expression: "[mentor]",
-      background: "mentor_shelf",
+      background: "hawthorn.mentor_shelf",
     },
   ],
 };

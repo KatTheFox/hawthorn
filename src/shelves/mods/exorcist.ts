@@ -8,37 +8,37 @@ export const exorcistTools: Shelf = {
   areas: [
     {
       x: 1,
-      background: "tool_shelf",
+      background: "hawthorn.tool_shelf",
       expression: "[exorcist.mirror]",
     },
     {
       x: 2,
-      background: "tool_shelf",
+      background: "hawthorn.tool_shelf",
       expression: "[exorcist.candle]",
     },
     {
       x: 3,
-      background: "tool_shelf",
+      background: "hawthorn.tool_shelf",
       expression: "[exorcist.knife]",
     },
     {
       x: 4,
-      background: "tool_shelf",
+      background: "hawthorn.tool_shelf",
       expression: "[exorcist.bell]",
     },
     {
       x: 5,
-      background: "tool_shelf",
+      background: "hawthorn.tool_shelf",
       expression: "[exorcist.camera]",
     },
     {
       x: 6,
-      background: "tool_shelf",
+      background: "hawthorn.tool_shelf",
       expression: "[exorcist.board]",
     },
     {
       x: 7,
-      background: "tool_shelf",
+      background: "hawthorn.tool_shelf",
       expression: "[exorcist.holybook]",
     },
   ],
@@ -54,18 +54,18 @@ export const exorcistJob: Shelf = {
   areas: [
     {
       x: 1,
-      background: "job_shelf",
+      background: "hawthorn.job_shelf",
       expression: "[exorcist.job] || [exorcist.scamjob]",
     },
     {
       x: 2,
-      background: "vault_shelf",
+      background: "hawthorn.vault_shelf",
       expression:
         "[exorcist.haunted] || [exorcist.scamjobhouse] || [exorcist.firsthouse]",
     },
     {
       x: 3,
-      background: "location_shelf",
+      background: "hawthorn.location_shelf",
       expression: "[exorcist.office]",
     },
   ],

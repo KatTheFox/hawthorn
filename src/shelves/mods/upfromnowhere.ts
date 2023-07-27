@@ -8,37 +8,37 @@ export const upFromNowhere: Shelf = {
   areas: [
     {
       x: 1,
-      background: "worm_shelf",
+      background: "hawthorn.worm_shelf",
       expression: "[dreamworm]",
     },
     {
       x: 2,
-      background: "mreaten_shelf",
+      background: "hawthorn.mreaten_shelf",
       expression: "[mreaten]",
     },
     {
       x: 3,
-      background: "worm_shelf",
+      background: "hawthorn.worm_shelf",
       expression: "[worm3]",
     },
     {
       x: 4,
-      background: "worm_shelf",
+      background: "hawthorn.worm_shelf",
       expression: "[worm2]",
     },
     {
       x: 5,
-      background: "worm_shelf",
+      background: "hawthorn.worm_shelf",
       expression: "[worm1]",
     },
     {
       x: 6,
-      background: "hunter_shelf",
+      background: "hawthorn.hunter_shelf",
       expression: "[taskforce]",
     },
     {
       x: 7,
-      background: "noto_shelf",
+      background: "hawthorn.noto_shelf",
       expression: "[taskforce.info]",
     },
   ],

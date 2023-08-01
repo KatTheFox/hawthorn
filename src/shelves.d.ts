@@ -5,6 +5,8 @@ type Shelf = {
   $depends?: string[];
   /** Readable name. Will be displayed in the settings. Keep it short. */
   name: string;
+  /** The icon that will be displayed in the shelves menu. 128x128 preferred. For a new image, put it anywhere inside the images/ui folder. To use an existing image from another folder, prefix the id. Example: "aspects:lore" */
+  icon?: string;
   /** Optional. How many rows for the entire shelf. Default=1. */
   rows?: number;
   /** Optional. How many columns for the entire shelf. Default=1 */

@@ -17,6 +17,8 @@ type Shelf = {
   expression?: string;
   /** Optional. An image to display as a background. */
   background?: string;
+  /** Which legacies this shelf is recommended for use with. */
+  legacies: string[];
   /** Controls the alignment of the background image. */
   style?: ShelfStyle;
   /** A list of areas for your shelf. */

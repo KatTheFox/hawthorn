@@ -23,6 +23,15 @@ import {
 } from "./shelves/mods/botanist";
 import { exorcistJob, exorcistTools } from "./shelves/mods/exorcist";
 import {
+  obdurantAllies,
+  obdurantEnemies,
+  obdurantInfrastructure,
+  obdurantState,
+  obdurantTechniques,
+  obdurantToolsAndIngs,
+  obdurantWeapons,
+} from "./shelves/mods/obdurant";
+import {
   ssAbilities,
   ssLore,
   ssRituls,
@@ -101,5 +110,12 @@ export const shelves = {
     advancedSeedShelf,
     botanistEssentials,
     botanistPotions,
+    obdurantAllies,
+    obdurantEnemies,
+    obdurantInfrastructure,
+    obdurantState,
+    obdurantTechniques,
+    obdurantWeapons,
+    obdurantToolsAndIngs,
   ],
 };

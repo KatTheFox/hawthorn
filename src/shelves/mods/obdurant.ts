@@ -427,8 +427,8 @@ export const obdurantInfrastructure: Shelf = {
   ],
 };
 export const obdurantToolsAndIngs: Shelf = {
-  id: "kat.obdurant.toolsandsuppliess",
-  name: "<sprite name=colours.liminal> Obdurant Tools and Suppliess",
+  id: "kat.obdurant.toolsandsupplies",
+  name: "<sprite name=colours.liminal> Obdurant Tools and Supplies",
   legacies: ["apostle.obdurant"],
   $depends: ["2944178812"],
   rows: 2,

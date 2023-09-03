@@ -4,6 +4,7 @@ export const apostleMoon: Shelf = {
   $depends: ["2995921343"],
   rows: 3,
   columns: 3,
+  legacies: ["apostlemoon", "apostlemoon.fromrisen"],
   priority: 4,
   areas: [
     {
@@ -64,6 +65,7 @@ export const apostleMoon: Shelf = {
 };
 export const soulementsShelf: Shelf = {
   id: "kat.soulements",
+  legacies: ["apostlemoon", "apostlemoon.fromrisen"],
   name: "<sprite name=colours.liminal> Apostle Moon Soul Elements",
   $depends: ["2995921343"],
   rows: 3,

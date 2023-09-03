@@ -1,4 +1,5 @@
 export const exorcistTools: Shelf = {
+  legacies: ["exorcist.legacy"],
   id: "kat.exorcist.tools",
   name: "<sprite name=colours.liminal> Exorcist Tools",
   $depends: ["3001901429"],
@@ -45,6 +46,7 @@ export const exorcistTools: Shelf = {
   category: "tools",
 };
 export const exorcistJob: Shelf = {
+  legacies: ["exorcist.legacy"],
   id: "kat.exorcist.job",
   name: "<sprite name=colours.liminal> Exorcist Job",
   $depends: ["3001901429"],

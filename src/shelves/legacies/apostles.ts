@@ -3,6 +3,7 @@ export const apostleGrail: Shelf = {
   category: "apostles",
   name: "<sprite name=colours.liminal> Grail Apostle",
   rows: 4,
+  legacies: ["apostlegrail", "apostlegrailwithrisen"],
   columns: 3,
   areas: [
     {
@@ -71,6 +72,7 @@ export const apostleGrail: Shelf = {
 export const apostleForge: Shelf = {
   id: "kat.apostle.forge",
   name: "<sprite name=colours.liminal> Forge Apostle",
+  legacies: ["apostleforge", "apostleforgewithrisen"],
   category: "apostles",
   rows: 2,
   columns: 3,
@@ -118,6 +120,7 @@ export const apostleForge: Shelf = {
 export const apostleLantern: Shelf = {
   id: "kat.apostle.lantern",
   name: "<sprite name=colours.liminal> Lantern Apostle",
+  legacies: ["apostlelantern", "apostlelanternwithrisen"],
 
   category: "apostles",
   rows: 2,

@@ -4,6 +4,7 @@ export const ssLore: Shelf = {
   category: "",
   $depends: ["2792602803"],
   rows: 1,
+  legacies: ["apostlemoth", "apostlemoth.frommenu", "apostlemothwithrisen"],
   columns: 9,
   areas: [
     {
@@ -55,6 +56,7 @@ export const ssLore: Shelf = {
 };
 export const ssStashes: Shelf = {
   id: "kat.skinstealer.stashes",
+  legacies: ["apostlemoth", "apostlemoth.frommenu", "apostlemothwithrisen"],
   name: "<sprite name=colours.liminal> Skinstealer Hiding Places",
   rows: 1,
   columns: 15,
@@ -139,6 +141,7 @@ export const ssStashes: Shelf = {
 };
 export const ssWays: Shelf = {
   id: "kat.skinstealer.ways",
+  legacies: ["apostlemoth", "apostlemoth.frommenu", "apostlemothwithrisen"],
   $depends: ["2792602803"],
   name: "<sprite name=colours.liminal> Skinstealer Ways Back Through Dream",
   rows: 3,
@@ -171,6 +174,7 @@ export const ssWays: Shelf = {
   ],
 };
 export const ssAbilities: Shelf = {
+  legacies: ["apostlemoth", "apostlemoth.frommenu", "apostlemothwithrisen"],
   id: "kat.skinstealer.abilities",
   name: "<sprite name=colours.liminal> Skinstealer Abilities",
   rows: 4,
@@ -272,6 +276,7 @@ export const ssAbilities: Shelf = {
   ],
 };
 export const ssRituls: Shelf = {
+  legacies: ["apostlemoth", "apostlemoth.frommenu", "apostlemothwithrisen"],
   name: "<sprite name=colours.liminal> Skinstealer Rituals",
   id: "kat.ss.rites",
   $depends: ["2792602803"],

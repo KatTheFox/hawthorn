@@ -15,6 +15,8 @@ type Shelf = {
   priority?: number;
   /** Optional. An expression describing what to move into that shelf. */
   expression?: string;
+  /** Optional. A list of expressions to pre-compute before activating the areas of each shelf. Can be used to ask the game to pre-compute costly values used in several shelves. Objects in the list can define computed values relying on values computed in previous objects of the list. Shelves and area expressions can use these computed values by accessing them via root/computedvaluename. They are recomputed with each new stack action and are cleared before each new shelf activation. This feature was introduced to enable more complex shelves to be written without introducing too much of a performance hit by recomputing the same value several times. Computed values cannot store expressions to use as "sub-expressions", only integers. */
+  rootCache?: { [key: string]: string }[];
   /** Optional. An image to display as a background. */
   background?: string;
   /** Which legacies this shelf is recommended for use with. */

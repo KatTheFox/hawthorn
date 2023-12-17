@@ -52,7 +52,12 @@ import { abilities } from "./shelves/vanilla/abilities";
 import { cult } from "./shelves/vanilla/cult";
 import { followers, jwfollowers } from "./shelves/vanilla/followers";
 import { locations } from "./shelves/vanilla/locations";
-import { lore, loreNoSH } from "./shelves/vanilla/lore";
+import {
+  lore,
+  loreNoSH,
+  loreSmartCycleCult,
+  loreSmartCycleDesire,
+} from "./shelves/vanilla/lore";
 import { pigments } from "./shelves/vanilla/pigments";
 import { rites } from "./shelves/vanilla/rites";
 import { patrons, spintria } from "./shelves/vanilla/spintria";
@@ -117,5 +122,8 @@ export const shelves = {
     obdurantTechniques,
     obdurantWeapons,
     obdurantToolsAndIngs,
+    loreSmartCycleCult,
+    loreSmartCycleDesire,
+    // cult2,
   ],
 };

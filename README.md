@@ -27,8 +27,6 @@ Upcoming planned shelves:
 
 possibly more
 
-
-Note: all Shelves mods will now only work on the gateofhorn beta branch, due to The Roost Machine only supporting the beta branch.
-
-
 Special thanks to [Xardis](https://steamcommunity.com/profiles/76561198187315102) for letting me use some assets, and advising me while I made others
+
+Hawthorn is unofficial content based on Cultist Simulator by Weather Factory Ltd. You can find out more and support Cultist Simulator at www.weatherfactory.biz.

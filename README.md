@@ -29,4 +29,6 @@ possibly more
 
 Special thanks to [Xardis](https://steamcommunity.com/profiles/76561198187315102) for letting me use some assets, and advising me while I made others
 
-Hawthorn is unofficial content based on Cultist Simulator by Weather Factory Ltd. You can find out more and support Cultist Simulator at www.weatherfactory.biz.
+Hawthorn is unofficial content based on Cultist Simulator by Weather Factory Ltd. You can find out more and support Cultist Simulator at [www.weatherfactory.biz](https://www.weatherfactory.biz).
+
+<img src="https://weatherfactory.biz/wp-content/uploads/2022/11/sixth-history-logo-text-black.png" width="120" /> 

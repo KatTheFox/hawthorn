@@ -21,7 +21,9 @@ export const waifHourMems: Shelf = {
   ],
   columns: 7,
   areas: [
-    // mothhour, watchman, velvet, malachite, thunderskin, mother of ants, wns, colonel, lionsmith, elegiast, beachcrow, meniscate, sun-in-rags, horned-axe, madrugad, grailhour, wolf divided, snw, flowermaker, forge of days
+    // mothhour, watchman, velvet, malachite, thunderskin, mother of ants, wns, colonel, lionsmith,
+    // elegiast, beachcrow, meniscate, sun-in-rags, horned-axe, madrugad, grailhour, wolf divided,
+    // snw, flowermaker, forge of days
     {
       id: "kat.waif.hour.mems.1",
       background: "hawthorn.memory_shelf",
@@ -203,62 +205,62 @@ export const waifPracticalShelf: Shelf = {
     {
       id: "kat.waif.practical.secrethistories",
       expression:
-        "[waif.practical] && ![waif.occult] && ([secrethistories]>0) && [secrethistories]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![element/waif.memory*]}:aspectmax/secrethistories]",
+        "[waif.practical] && ![waif.occult] && ([secrethistories]>0) && [secrethistories]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![entity/waif.memory*]}:aspectmax/secrethistories]",
       background: "hawthorn.job_shelf",
     },
     {
       id: "kat.waif.practical.knock",
       expression:
-        "[waif.practical] && ![waif.occult] && ([knock]>0) && [knock]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![element/waif.memory*]}:aspectmax/knock]",
+        "[waif.practical] && ![waif.occult] && ([knock]>0) && [knock]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![entity/waif.memory*]}:aspectmax/knock]",
       x: 2,
       background: "hawthorn.job_shelf",
     },
     {
       id: "kat.waif.practical.lantern",
       expression:
-        "[waif.practical] && ![waif.occult] && ([lantern]>0) && [lantern]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![element/waif.memory*]}:aspectmax/lantern]",
+        "[waif.practical] && ![waif.occult] && ([lantern]>0) && [lantern]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![entity/waif.memory*]}:aspectmax/lantern]",
       x: 3,
       background: "hawthorn.job_shelf",
     },
     {
       id: "kat.waif.practical.forge",
       expression:
-        "[waif.practical] && ![waif.occult] && ([forge]>0) && [forge]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![element/waif.memory*]}:aspectmax/forge]",
+        "[waif.practical] && ![waif.occult] && ([forge]>0) && [forge]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![entity/waif.memory*]}:aspectmax/forge]",
       x: 4,
       background: "hawthorn.job_shelf",
     },
     {
       id: "kat.waif.practical.edge",
       expression:
-        "[waif.practical] && ![waif.occult] && ([edge]>0) && [edge]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![element/waif.memory*]}:aspectmax/edge]",
+        "[waif.practical] && ![waif.occult] && ([edge]>0) && [edge]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![entity/waif.memory*]}:aspectmax/edge]",
       x: 5,
       background: "hawthorn.job_shelf",
     },
     {
       id: "kat.waif.practical.winter",
       expression:
-        "[waif.practical] && ![waif.occult] && ([winter]>0) && [winter]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![element/waif.memory*]}:aspectmax/winter]",
+        "[waif.practical] && ![waif.occult] && ([winter]>0) && [winter]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![entity/waif.memory*]}:aspectmax/winter]",
       x: 6,
       background: "hawthorn.job_shelf",
     },
     {
       id: "kat.waif.practical.heart",
       expression:
-        "[waif.practical] && ![waif.occult] && ([heart]>0) && [heart]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![element/waif.memory*]}:aspectmax/heart]",
+        "[waif.practical] && ![waif.occult] && ([heart]>0) && [heart]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![entity/waif.memory*]}:aspectmax/heart]",
       x: 7,
       background: "hawthorn.job_shelf",
     },
     {
       id: "kat.waif.practical.moth",
       expression:
-        "[waif.practical] && ![waif.occult] && ([moth]>0) && [moth]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![element/waif.memory*]}:aspectmax/moth]",
+        "[waif.practical] && ![waif.occult] && ([moth]>0) && [moth]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![entity/waif.memory*]}:aspectmax/moth]",
       x: 8,
       background: "hawthorn.job_shelf",
     },
     {
       id: "kat.waif.practical.grail",
       expression:
-        "[waif.practical] && ![waif.occult] && ([grail]>0) && [grail]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![element/waif.memory*]}:aspectmax/grail]",
+        "[waif.practical] && ![waif.occult] && ([grail]>0) && [grail]=[~/tabletop:{[waif.practical] && ![waif.occult] && ![entity/waif.memory*]}:aspectmax/grail]",
       x: 9,
       background: "hawthorn.job_shelf",
     },
@@ -291,62 +293,62 @@ export const waifOccultShelf: Shelf = {
     {
       id: "kat.waif.occult.secrethistories",
       expression:
-        "![waif.practical] && [waif.occult] && ([secrethistories]>0) && [secrethistories]=[~/tabletop:{![waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/secrethistories]",
+        "![waif.practical] && [waif.occult] && ([secrethistories]>0) && [secrethistories]=[~/tabletop:{![waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/secrethistories]",
       background: "hawthorn.ritual_shelf",
     },
     {
       id: "kat.waif.occult.knock",
       expression:
-        "![waif.practical] && [waif.occult] && ([knock]>0) && [knock]=[~/tabletop:{![waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/knock]",
+        "![waif.practical] && [waif.occult] && ([knock]>0) && [knock]=[~/tabletop:{![waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/knock]",
       x: 2,
       background: "hawthorn.ritual_shelf",
     },
     {
       id: "kat.waif.occult.lantern",
       expression:
-        "![waif.practical] && [waif.occult] && ([lantern]>0) && [lantern]=[~/tabletop:{![waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/lantern]",
+        "![waif.practical] && [waif.occult] && ([lantern]>0) && [lantern]=[~/tabletop:{![waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/lantern]",
       x: 3,
       background: "hawthorn.ritual_shelf",
     },
     {
       id: "kat.waif.occult.forge",
       expression:
-        "![waif.practical] && [waif.occult] && ([forge]>0) && [forge]=[~/tabletop:{![waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/forge]",
+        "![waif.practical] && [waif.occult] && ([forge]>0) && [forge]=[~/tabletop:{![waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/forge]",
       x: 4,
       background: "hawthorn.ritual_shelf",
     },
     {
       id: "kat.waif.occult.edge",
       expression:
-        "![waif.practical] && [waif.occult] && ([edge]>0) && [edge]=[~/tabletop:{![waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/edge]",
+        "![waif.practical] && [waif.occult] && ([edge]>0) && [edge]=[~/tabletop:{![waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/edge]",
       x: 5,
       background: "hawthorn.ritual_shelf",
     },
     {
       id: "kat.waif.occult.winter",
       expression:
-        "![waif.practical] && [waif.occult] && ([winter]>0) && [winter]=[~/tabletop:{![waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/winter]",
+        "![waif.practical] && [waif.occult] && ([winter]>0) && [winter]=[~/tabletop:{![waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/winter]",
       x: 6,
       background: "hawthorn.ritual_shelf",
     },
     {
       id: "kat.waif.occult.heart",
       expression:
-        "![waif.practical] && [waif.occult] && ([heart]>0) && [heart]=[~/tabletop:{![waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/heart]",
+        "![waif.practical] && [waif.occult] && ([heart]>0) && [heart]=[~/tabletop:{![waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/heart]",
       x: 7,
       background: "hawthorn.ritual_shelf",
     },
     {
       id: "kat.waif.occult.moth",
       expression:
-        "![waif.practical] && [waif.occult] && ([moth]>0) && [moth]=[~/tabletop:{![waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/moth]",
+        "![waif.practical] && [waif.occult] && ([moth]>0) && [moth]=[~/tabletop:{![waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/moth]",
       x: 8,
       background: "hawthorn.ritual_shelf",
     },
     {
       id: "kat.waif.occult.grail",
       expression:
-        "![waif.practical] && [waif.occult] && ([grail]>0) && [grail]=[~/tabletop:{![waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/grail]",
+        "![waif.practical] && [waif.occult] && ([grail]>0) && [grail]=[~/tabletop:{![waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/grail]",
       x: 9,
       background: "hawthorn.ritual_shelf",
     },
@@ -378,62 +380,62 @@ export const waifBothShelf: Shelf = {
     {
       id: "kat.waif.both.secrethistories",
       expression:
-        "[waif.practical] && [waif.occult] && ([secrethistories]>0) && [secrethistories]=[~/tabletop:{[waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/secrethistories]",
+        "[waif.practical] && [waif.occult] && ([secrethistories]>0) && [secrethistories]=[~/tabletop:{[waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/secrethistories]",
       background: "hawthorn.lore_secrethistories_shelf",
     },
     {
       id: "kat.waif.both.knock",
       expression:
-        "[waif.practical] && [waif.occult] && ([knock]>0) && [knock]=[~/tabletop:{[waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/knock]",
+        "[waif.practical] && [waif.occult] && ([knock]>0) && [knock]=[~/tabletop:{[waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/knock]",
       background: "hawthorn.lore_knock_shelf",
       x: 2,
     },
     {
       id: "kat.waif.both.lantern",
       expression:
-        "[waif.practical] && [waif.occult] && ([lantern]>0) && [lantern]=[~/tabletop:{[waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/lantern]",
+        "[waif.practical] && [waif.occult] && ([lantern]>0) && [lantern]=[~/tabletop:{[waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/lantern]",
       background: "hawthorn.lore_lantern_shelf",
       x: 3,
     },
     {
       id: "kat.waif.both.forge",
       expression:
-        "[waif.practical] && [waif.occult] && ([forge]>0) && [forge]=[~/tabletop:{[waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/forge]",
+        "[waif.practical] && [waif.occult] && ([forge]>0) && [forge]=[~/tabletop:{[waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/forge]",
       background: "hawthorn.lore_forge_shelf",
       x: 4,
     },
     {
       id: "kat.waif.both.edge",
       expression:
-        "[waif.practical] && [waif.occult] && ([edge]>0) && [edge]=[~/tabletop:{[waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/edge]",
+        "[waif.practical] && [waif.occult] && ([edge]>0) && [edge]=[~/tabletop:{[waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/edge]",
       background: "hawthorn.lore_edge_shelf",
       x: 5,
     },
     {
       id: "kat.waif.both.winter",
       expression:
-        "[waif.practical] && [waif.occult] && ([winter]>0) && [winter]=[~/tabletop:{[waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/winter]",
+        "[waif.practical] && [waif.occult] && ([winter]>0) && [winter]=[~/tabletop:{[waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/winter]",
       background: "hawthorn.lore_winter_shelf",
       x: 6,
     },
     {
       id: "kat.waif.both.heart",
       expression:
-        "[waif.practical] && [waif.occult] && ([heart]>0) && [heart]=[~/tabletop:{[waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/heart]",
+        "[waif.practical] && [waif.occult] && ([heart]>0) && [heart]=[~/tabletop:{[waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/heart]",
       background: "hawthorn.lore_heart_shelf",
       x: 7,
     },
     {
       id: "kat.waif.both.moth",
       expression:
-        "[waif.practical] && [waif.occult] && ([moth]>0) && [moth]=[~/tabletop:{[waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/moth]",
+        "[waif.practical] && [waif.occult] && ([moth]>0) && [moth]=[~/tabletop:{[waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/moth]",
       background: "hawthorn.lore_moth_shelf",
       x: 8,
     },
     {
       id: "kat.waif.both.grail",
       expression:
-        "[waif.practical] && [waif.occult] && ([grail]>0) && [grail]=[~/tabletop:{[waif.practical] && [waif.occult] && ![element/waif.memory*]}:aspectmax/grail]",
+        "[waif.practical] && [waif.occult] && ([grail]>0) && [grail]=[~/tabletop:{[waif.practical] && [waif.occult] && ![entity/waif.memory*]}:aspectmax/grail]",
       background: "hawthorn.lore_grail_shelf",
       x: 9,
     },

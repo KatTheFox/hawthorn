@@ -31,6 +31,7 @@ import {
   obdurantToolsAndIngs,
   obdurantWeapons,
 } from "./shelves/mods/obdurant";
+import { scholarClasses } from "./shelves/mods/scholar";
 import {
   ssAbilities,
   ssLore,
@@ -125,5 +126,6 @@ export const shelves = {
     loreSmartCycleCult,
     loreSmartCycleDesire,
     // cult2,
+    scholarClasses,
   ],
 };

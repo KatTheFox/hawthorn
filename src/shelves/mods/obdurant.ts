@@ -24,7 +24,7 @@ export const obdurantState: Shelf = {
     {
       y: 2,
       x: 2,
-      expression: "[obdurant.story]",
+      expression: "[obdurant.story] || [proterant.story]",
       background: "hawthorn.lore_edge_shelf",
     },
     {
@@ -34,14 +34,14 @@ export const obdurantState: Shelf = {
       background: "hawthorn.strife_shelf",
     },
   ],
-  legacies: ["apostle.obdurant"],
+  legacies: ["apostle.obdurant", "apostle.proterant"],
 };
 export const obdurantAllies: Shelf = {
   id: "kat.obdurant.allies",
   name: "<sprite name=colours.liminal> Obdurant Allies",
   rows: 2,
   columns: 10,
-  legacies: ["apostle.obdurant"],
+  legacies: ["apostle.obdurant", "apostle.proterant"],
   $depends: ["2944178812"],
   category: "apostles",
   areas: [
@@ -161,7 +161,7 @@ export const obdurantEnemies: Shelf = {
   id: "kat.obdurant.enemies",
   name: "<sprite name=colours.liminal> Obdurant Enemies",
   $depends: ["2944178812"],
-  rows: 1,
+  rows: 2,
   columns: 10,
   category: "apostles",
   areas: [
@@ -276,7 +276,7 @@ export const obdurantEnemies: Shelf = {
       x: 10,
     },
   ],
-  legacies: ["apostle.obdurant"],
+  legacies: ["apostle.obdurant", "apostle.proterant"],
 };
 export const obdurantWeapons: Shelf = {
   id: "kat.obdurant.weapons",
@@ -338,53 +338,54 @@ export const obdurantTechniques: Shelf = {
   category: "apostles",
   areas: [
     {
-      expression: "[entity/obdurant.fragmentedge*]",
+      expression:
+        "[entity/obdurant.fragmentedge*] || [entity/proterant.fragmentedge*]",
       background: "hawthorn.lore_edge_shelf",
     },
     {
       expression:
-        "( [lore] && ![entity/obdurant.fragmentedge*] ) || ( [debilitation] && [defiance.consecration.colonel] )",
+        "( [lore] && ![entity/obdurant.fragmentedge*] && ![entity/proterant.fragmentedge*] ) || ( [debilitation] && [defiance.consecration.colonel] )",
       x: 2,
       background: "hawthorn.technique_shelf",
     },
     {
       expression:
-        "( [lore] && ![entity/obdurant.fragmentedge*] ) || ( [debilitation] && [defiance.consecration.colonel] )",
+        "( [lore] && ![entity/obdurant.fragmentedge*] && ![entity/proterant.fragmentedge*]) || ( [debilitation] && [defiance.consecration.colonel] )",
       x: 3,
       background: "hawthorn.technique_shelf",
     },
     {
       expression:
-        "( [lore] && ![entity/obdurant.fragmentedge*] ) || ( [debilitation] && [defiance.consecration.colonel] )",
+        "( [lore] && ![entity/obdurant.fragmentedge*] && ![entity/proterant.fragmentedge*]) || [chain] || ( [debilitation] && [defiance.consecration.colonel] )",
       x: 4,
       background: "hawthorn.technique_shelf",
     },
     {
       expression:
-        "( [lore] && ![entity/obdurant.fragmentedge*] ) || ( [debilitation] && [defiance.consecration.colonel] )",
+        "( [lore] && ![entity/obdurant.fragmentedge*] && ![entity/proterant.fragmentedge*]) || [chain] || ( [debilitation] && [defiance.consecration.colonel] )",
       x: 5,
       background: "hawthorn.technique_shelf",
     },
     {
       expression:
-        "( [lore] && ![entity/obdurant.fragmentedge*] ) || ( [debilitation] && [defiance.consecration.colonel] )",
+        "( [lore] && ![entity/obdurant.fragmentedge*] && ![entity/proterant.fragmentedge*]) || [chain] || ( [debilitation] && [defiance.consecration.colonel] )",
       x: 6,
       background: "hawthorn.technique_shelf",
     },
     {
       expression:
-        "( [lore] && ![entity/obdurant.fragmentedge*] ) || ( [debilitation] && [defiance.consecration.colonel] )",
+        "( [lore] && ![entity/obdurant.fragmentedge*] && ![entity/proterant.fragmentedge*]) || [chain] || ( [debilitation] && [defiance.consecration.colonel] )",
       x: 7,
       background: "hawthorn.technique_shelf",
     },
     {
       expression:
-        "( [lore] && ![entity/obdurant.fragmentedge*] ) || ( [debilitation] && [defiance.consecration.colonel] )",
+        "( [lore] && ![entity/obdurant.fragmentedge*] && ![entity/proterant.fragmentedge*]) || [chain] || ( [debilitation] && [defiance.consecration.colonel] )",
       x: 8,
       background: "hawthorn.technique_shelf",
     },
   ],
-  legacies: ["apostle.obdurant"],
+  legacies: ["apostle.obdurant", "apostle.proterant"],
 };
 export const obdurantInfrastructure: Shelf = {
   id: "kat.obdurant.infrastructure",
@@ -425,6 +426,7 @@ export const obdurantInfrastructure: Shelf = {
       background: "hawthorn.infrastructure_shelf",
     },
   ],
+  legacies: ["apostle.obdurant", "apostle.proterant"],
 };
 export const obdurantToolsAndIngs: Shelf = {
   id: "kat.obdurant.toolsandsupplies",
@@ -432,7 +434,7 @@ export const obdurantToolsAndIngs: Shelf = {
   legacies: ["apostle.obdurant"],
   $depends: ["2944178812"],
   rows: 2,
-  columns: 5,
+  columns: 7,
   areas: [
     {
       x: 1,
